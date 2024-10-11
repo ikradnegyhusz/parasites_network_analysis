@@ -1,0 +1,6 @@
+# prop_name, value
+name,hiv_transmission
+description,"A set of networks of HIV transmissions between people through sexual, needle-sharing, or social connections, based on combining 8 datasets collected from 1988 to 2001. Metadata includes test results of several diseases, as well as demographic variables such as age, ethnicity, and gender. Networks come in two flavors: egodyads and altdyads. Egodyads are the network among study-participants and their direct partners. Altdyads are the network among people who are connected to the egodyad network. All data contained in a single file, but individual networks can be extracted using the 'studynum' variable (see codebook)."
+citation,"['M. Morris and R. Rothenberg. \"HIV Transmission Network. Metastudy Project: An Archive of Data From Eight Network Studies, 1988–2001.” Inter-university Consortium for Political and Social Research (2011)., http://doi.org/10.3886/ICPSR22140.v1']"
+url,http://www.icpsr.umich.edu/icpsrweb/NAHDAP/studies/22140
+tags,"['Social', 'Public Health', 'Unweighted', 'Metadata']"
