@@ -1,0 +1,1 @@
+{"average_degree": 71.85611413043478, "max_degree": 2260, "min_degree": 0, "percentage_under_average": 0.73125, "degree_assortativity": 0.08475397231055315, "modularity": 0.5984877392234296}
