@@ -69,7 +69,7 @@ def pearson(network, nodes):
    G = nx.from_numpy_array(j_dist)
    return nx.relabel_nodes(G, {i: nodes[i] for i in range(len(nodes))})
 
-def probs(network, nodes, directed = False):
+def resource_allocation(network, nodes, directed = False):
    T = nx.algorithms.bipartite.matrix.biadjacency_matrix(network, row_order = nodes)
    T_norm = normalize(T, norm = 'l1', axis = 1) # Divide each row element with the row sum (Eq. [1] in the paper)
    T_t_norm = normalize(T.T, norm = 'l1', axis = 1) # Divide each row element of the transpose with the transposed row sum (Eq. [2] in the paper) 
