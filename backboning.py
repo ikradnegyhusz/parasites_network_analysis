@@ -134,49 +134,65 @@ def noise_corrected(table, undirected = False, return_self_loops = False, calcul
       table = table[table["src"] <= table["trg"]]
    return table[["src", "trg", "nij", "score", "sdev_cij"]]
 
-def doubly_stochastic(table, undirected = False, return_self_loops = False):
-   sys.stderr.write("Calculating DST score...\n")
-   table = table.copy()
-   table2 = table.copy()
-   original_nodes = len(set(table["src"]) | set(table["trg"]))
-   table = pd.pivot_table(table, values = "nij", index = "src", columns = "trg", aggfunc = "sum", fill_value = 0) + .001
-   row_sums = table.sum(axis = 1)
-   attempts = 0
-   while np.std(row_sums) > 1e-12:
-      table = table.div(row_sums, axis = 0)
-      col_sums = table.sum(axis = 0)
-      table = table.div(col_sums, axis = 1)
-      row_sums = table.sum(axis = 1)
-      attempts += 1
-      if attempts > 1000:
-         warnings.warn("Matrix could not be reduced to doubly stochastic. See Sec. 3 of Sinkhorn 1964", RuntimeWarning)
-         return pd.DataFrame()
-   table = pd.melt(table.reset_index(), id_vars = "src")
-   table = table[table["src"] < table["trg"]]
-   table = table[table["value"] > 0].sort_values(by = "value", ascending = False)
-   i = 0
-   if undirected:
-      G = nx.Graph()
-      while nx.number_connected_components(G) != 1 or nx.number_of_nodes(G) < original_nodes:
-         edge = table.iloc[i]
-         G.add_edge(edge["src"], edge["trg"], weight = edge["value"])
-         i += 1
-   else:
-      G = nx.DiGraph()
-      while nx.number_weakly_connected_components(G) != 1 or nx.number_of_nodes(G) < original_nodes:
-         edge = table.iloc[i]
-         G.add_edge(edge["src"], edge["trg"], weight = edge["value"])
-         i += 1
-   table = pd.melt(nx.to_pandas_adjacency(G).reset_index(), id_vars = "index")
-   table = table[table["value"] > 0]
-   table.rename(columns = {"index": "src", "variable": "trg", "value": "cij"}, inplace = True)
-   table["score"] = table["cij"]
-   table = table.merge(table2[["src", "trg", "nij"]], on = ["src", "trg"])
-   if not return_self_loops:
-      table = table[table["src"] != table["trg"]]
-   if undirected:
-      table = table[table["src"] <= table["trg"]]
-   return table[["src", "trg", "nij", "score"]]
+def doubly_stochastic(table, undirected=False, return_self_loops=False):
+    sys.stderr.write("Calculating DST score...\n")
+    table = table.copy()
+    table2 = table.copy()
+    original_nodes = len(set(table["src"]) | set(table["trg"]))
+    
+    # Initial pivot and normalization
+    table = pd.pivot_table(table, values="nij", index="src", columns="trg", aggfunc="sum", fill_value=0)
+    table = table + (table.sum().sum() / (table.shape[0] ** 2))  # Better initialization
+    
+    row_sums = table.sum(axis=1)
+    col_sums = table.sum(axis=0)
+    attempts = 0
+
+    print(row_sums)
+    print(col_sums)
+    
+    while np.max(np.abs(row_sums - 1)) > 1e-12 or np.max(np.abs(col_sums - 1)) > 1e-12:
+        table = table.div(row_sums, axis=0)
+        col_sums = table.sum(axis=0)
+        table = table.div(col_sums, axis=1)
+        row_sums = table.sum(axis=1)
+        attempts += 1
+        print(attempts)
+        if attempts > 1000:
+            warnings.warn("Matrix could not be reduced to doubly stochastic. See Sec. 3 of Sinkhorn 1964", RuntimeWarning)
+            return pd.DataFrame()
+    
+    # Proceed with the network creation part
+    table = pd.melt(table.reset_index(), id_vars="src")
+    table = table[table["src"] < table["trg"]]
+    table = table[table["value"] > 0].sort_values(by="value", ascending=False)
+    
+    i = 0
+    if undirected:
+        G = nx.Graph()
+        while nx.number_connected_components(G) != 1 or nx.number_of_nodes(G) < original_nodes:
+            edge = table.iloc[i]
+            G.add_edge(edge["src"], edge["trg"], weight=edge["value"])
+            i += 1
+    else:
+        G = nx.DiGraph()
+        while nx.number_weakly_connected_components(G) != 1 or nx.number_of_nodes(G) < original_nodes:
+            edge = table.iloc[i]
+            G.add_edge(edge["src"], edge["trg"], weight=edge["value"])
+            i += 1
+    
+    table = pd.melt(nx.to_pandas_adjacency(G).reset_index(), id_vars="index")
+    table = table[table["value"] > 0]
+    table.rename(columns={"index": "src", "variable": "trg", "value": "cij"}, inplace=True)
+    table["score"] = table["cij"]
+    table = table.merge(table2[["src", "trg", "nij"]], on=["src", "trg"])
+    
+    if not return_self_loops:
+        table = table[table["src"] != table["trg"]]
+    if undirected:
+        table = table[table["src"] <= table["trg"]]
+    
+    return table[["src", "trg", "nij", "score"]]
 
 def disparity_filter(table, undirected = False, return_self_loops = False):
    sys.stderr.write("Calculating DF score...\n")

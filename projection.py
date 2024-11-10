@@ -3,6 +3,7 @@ import networkx as nx
 from scipy import sparse
 from sklearn.metrics import pairwise_distances
 from sklearn.preprocessing import normalize
+from scipy.sparse import csr_matrix
 
 def ycn(network, nodes, directed = False):
    T = nx.algorithms.bipartite.matrix.biadjacency_matrix(network, row_order = nodes)
@@ -31,13 +32,22 @@ def simple(network, nodes):
    return nx.relabel_nodes(G, {i: nodes[i] for i in range(len(nodes))})
 
 def hyperbolic(network, nodes):
-   T = nx.algorithms.bipartite.matrix.biadjacency_matrix(network, row_order = nodes)
-   T = sparse.csr_matrix(T)
-   U = T @ (T / T.sum(axis = 0)).T
-   U.setdiag(0)
-   U.eliminate_zeros()
-   G = nx.from_scipy_sparse_array(U)
-   return nx.relabel_nodes(G, {i: nodes[i] for i in range(len(nodes))})
+    # Compute the biadjacency matrix
+    T = nx.algorithms.bipartite.matrix.biadjacency_matrix(network, row_order=nodes)
+    T = sparse.csr_matrix(T)
+    
+    col_sum = T.sum(axis=0).A1
+    col_sum[col_sum == 0] = 1
+    
+    U = T @ (T / col_sum).T
+    U = sparse.csr_matrix(U)
+    
+    U.setdiag(0)
+    U.eliminate_zeros()
+    
+    G = nx.from_scipy_sparse_array(U)
+    
+    return nx.relabel_nodes(G, {i: nodes[i] for i in range(len(nodes))})
 
 def jaccard(network, nodes):
    T = nx.algorithms.bipartite.matrix.biadjacency_matrix(network, row_order = nodes)
@@ -62,12 +72,19 @@ def cosine(network, nodes):
    return nx.relabel_nodes(G, {i: nodes[i] for i in range(len(nodes))})
 
 def pearson(network, nodes):
-   T = nx.algorithms.bipartite.matrix.biadjacency_matrix(network, row_order = nodes)
-   j_dist = (2.0 - pairwise_distances(T.todense(), metric = "correlation", n_jobs = -1)) / 2
-   np.fill_diagonal(j_dist, 0)
-   j_dist[j_dist < .5] = 0
-   G = nx.from_numpy_array(j_dist)
-   return nx.relabel_nodes(G, {i: nodes[i] for i in range(len(nodes))})
+    # Compute the biadjacency matrix
+    T = nx.algorithms.bipartite.matrix.biadjacency_matrix(network, row_order=nodes).todense()  # Convert to dense
+    
+    # Compute pairwise correlation distances
+    j_dist = 1 - pairwise_distances(T, metric="correlation", n_jobs=-1)  # 1 - correlation
+    j_dist = np.maximum(j_dist, 0)  # Ensure non-negative distances
+    np.fill_diagonal(j_dist, 0)  # Remove self-loops
+    
+    # Threshold and create graph
+    j_dist[j_dist < 0.5] = 0
+    G = nx.from_numpy_array(j_dist)
+    
+    return nx.relabel_nodes(G, {i: nodes[i] for i in range(len(nodes))})
 
 def resource_allocation(network, nodes, directed = False):
    T = nx.algorithms.bipartite.matrix.biadjacency_matrix(network, row_order = nodes)
