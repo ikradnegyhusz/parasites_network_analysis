@@ -1,4 +1,4 @@
-mapping = {
+locality_to_common_locality = {
     "Northeast Atlantic": "Atlantic Ocean",
     None: None,
     "Western Mediterranean": "Atlantic Ocean",
