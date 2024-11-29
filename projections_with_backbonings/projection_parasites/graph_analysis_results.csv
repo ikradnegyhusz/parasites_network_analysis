@@ -1,0 +1,9 @@
+Graph,Community_Detection,AMI_most_frequent_locality,AMI_most_frequent_parasite_group,AMI_animals_group,Modularity,Assortativity_most_frequent_locality,Assortativity_most_frequent_parasite_group,Assortativity_animals_group
+Graph simple count and disparity filter with threshold 0.5,Label Propagation,0.2787008150070527,0.07362092506434408,0.30938729284217725,0.6628264757191553,0.4712269206805252,0.14224257376327284,0.740386063473734
+Graph simple count and disparity filter with threshold 0.57,Label Propagation,0.25488100337966135,0.06561579394073026,0.29175075235569686,0.6747890075721703,0.49258958275632997,0.11295808672649627,0.7539672961799521
+Graph resource allocation and naive with threshold 0.0349 on score (not nij),Label Propagation,0.11828618569839207,0.043617500298104774,0.09828382477250805,0.8737346500459714,0.8046498397680208,0.48336212859350697,0.7655905567624477
+Graph resource allocation and naive with threshold 0.01745 on score (not nij),Label Propagation,0.1889040632912724,0.05939714340591178,0.1636984353997239,0.7847556856862089,0.7593732620754623,0.40993996779080527,0.7692179565334559
+Graph simple count and disparity filter with threshold 0.5,Greedy Modularity,0.1873793884076982,0.05474002293225782,0.2900332347023112,0.6006807751603583,,,
+Graph simple count and disparity filter with threshold 0.57,Greedy Modularity,0.16931299348128714,0.04475274361169363,0.23642344070579585,0.6279917740621505,,,
+Graph resource allocation and naive with threshold 0.0349 on score (not nij),Greedy Modularity,0.12118555528688238,0.03842983233162007,0.10571651434267622,0.9756102337427665,,,
+Graph resource allocation and naive with threshold 0.01745 on score (not nij),Greedy Modularity,0.17021917369006234,0.04499198339302586,0.15676054037158357,0.8715154202893041,,,
