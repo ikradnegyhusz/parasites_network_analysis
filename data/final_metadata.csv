@@ -1,4 +1,4 @@
-,nodes_index, name,most_frequent_locality,group,most_frequent_hostgroup
+,nodes_index, name,most_frequent_locality,group,hostgroup
 0,1,Acanthocephaloides incrassatus,Atlantic Ocean,Acanthocephala,Teleostei
 1,3,Acanthocephaloides propinquus,Atlantic Ocean,Acanthocephala,Teleostei
 2,9,Acanthogyrus lizae,Atlantic Ocean,Acanthocephala,Maxillopoda
@@ -30,7 +30,7 @@
 28,98,Pomphorhynchus bulbocolli,North America,Acanthocephala,Teleostei
 29,101,Southwellina sacra,Pacific Ocean,Acanthocephala,Aves
 30,103,Andracantha baylisi,Atlantic Ocean,Acanthocephala,Teleostei
-31,110,Andracantha clavata,Southern Ocean,Acanthocephala,['Aves' 'Teleostei']
+31,110,Andracantha clavata,Southern Ocean,Acanthocephala,Teleostei
 32,119,Bolbosoma balaenae,Indian Ocean,Acanthocephala,Mammalia
 33,126,Bolbosoma brevicolle,Indian Ocean,Acanthocephala,Mammalia
 34,129,Bolbosoma hamiltoni,Indian Ocean,Acanthocephala,Mammalia
@@ -40,7 +40,7 @@
 38,135,Corynosoma arctocephali,Atlantic Ocean,Acanthocephala,Teleostei
 39,149,Corynosoma australe,Atlantic Ocean,Acanthocephala,Teleostei
 40,155,Corynosoma bullosum,Atlantic Ocean,Acanthocephala,Teleostei
-41,187,Corynosoma evae,Atlantic Ocean,Acanthocephala,['Mammalia' 'Teleostei']
+41,187,Corynosoma evae,Atlantic Ocean,Acanthocephala,Teleostei
 42,188,Corynosoma hamanni,Atlantic Ocean,Acanthocephala,Teleostei
 43,202,Corynosoma hannae,Pacific Ocean,Acanthocephala,Mammalia
 44,203,Corynosoma mirabilis,Pacific Ocean,Acanthocephala,Mammalia
@@ -122,7 +122,7 @@
 120,382,Echinorhynchus leidyi,North America,Acanthocephala,Teleostei
 121,383,Metechinorhynchus salmonis,North America,Acanthocephala,Teleostei
 122,384,Neoechinorhynchus crassus,North America,Acanthocephala,Teleostei
-123,386,Polymorphus phippsi,Europe,Acanthocephala,Aves
+123,386,Polymorphus phippsi,Europe,Acanthocephala,Malacostraca
 124,388,Pseudoechinorhynchus borealis,Europe,Acanthocephala,Teleostei
 125,390,Acanthocephalus tumescens,South America,Acanthocephala,Teleostei
 126,400,Gorytocephalus talaensis,South America,Acanthocephala,[]
@@ -135,7 +135,7 @@
 133,421,Oncicola oncicola,North America,Acanthocephala,Reptilia
 134,424,Centrorhynchus wardae,North America,Acanthocephala,Mammalia
 135,427,Fessisentis vancleavei,North America,Acanthocephala,Amphibia
-136,429,Macracanthorhynchus ingens,North America,Acanthocephala,Mammalia
+136,429,Macracanthorhynchus ingens,North America,Acanthocephala,Reptilia
 137,431,Mediorhynchus grandis,North America,Acanthocephala,Aves
 138,433,Moniliformis clarki,North America,Acanthocephala,Mammalia
 139,435,Neoechinorhynchus chrysemydis,North America,Acanthocephala,Reptilia
@@ -349,7 +349,7 @@
 347,1243,Rhadinorhynchus indicus,Indian Ocean,Acanthocephala,Teleostei
 348,1244,Serrasentis golvani,Asia,Acanthocephala,[]
 349,1245,Serrasentis indicus,North America,Acanthocephala,Teleostei
-350,1247,Serrasentis longa,Pacific Ocean,Acanthocephala,Chondrichthyes
+350,1247,Serrasentis longa,Pacific Ocean,Acanthocephala,Teleostei
 351,1250,Telosentis lutianusi,Indian Ocean,Acanthocephala,[]
 352,1251,Tenuiproboscis clupei,Indian Ocean,Acanthocephala,[]
 353,1252,Tenuiproboscis guptai,Indian Ocean,Acanthocephala,Teleostei
@@ -410,7 +410,7 @@
 408,1432,Sphaerirostris areolatus,Europe,Acanthocephala,Aves
 409,1433,Sphaerirostris picae,Europe,Acanthocephala,Aves
 410,1437,Sphaerirostris pinguis,Europe,Acanthocephala,Aves
-411,1438,Sphaerirostris scanensis,Asia,Acanthocephala,['Aves' 'Malacostraca' 'Reptilia']
+411,1438,Sphaerirostris scanensis,Asia,Acanthocephala,Reptilia
 412,1439,Sphaerirostris teres,Asia,Acanthocephala,Reptilia
 413,1441,Sphaerirostris turdi,Europe,Acanthocephala,Aves
 414,1451,Arhythmorhynchus eroliae,Europe,Acanthocephala,Aves
@@ -487,7 +487,7 @@
 485,1695,Pomphorhynchus perforator,Asia,Acanthocephala,Malacostraca
 486,1699,Pomphorhynchus yunnanensis,Asia,Acanthocephala,[]
 487,1702,Prosthenorchis elegans,South America,Acanthocephala,Mammalia
-488,1704,Pseudoacanthocephalus bufonis,Asia,Acanthocephala,['Amphibia' 'Malacostraca']
+488,1704,Pseudoacanthocephalus bufonis,Asia,Acanthocephala,Malacostraca
 489,1707,Quadrigyrus formosanus,Asia,Acanthocephala,Teleostei
 490,1710,Quadrigyrus rhodei,Asia,Acanthocephala,Teleostei
 491,1712,Rhadinorhynchus cyprini,Asia,Acanthocephala,[]
@@ -506,10 +506,10 @@
 504,1744,Quadrigyrus nickoli,South America,Acanthocephala,Teleostei
 505,1761,Andracantha phalacrocoracis,Europe,Acanthocephala,Aves
 506,1762,Apororhynchus silesiacus,Europe,Acanthocephala,Aves
-507,1776,Polymorphus strumosoides,Europe,Acanthocephala,['Aves' 'Malacostraca']
+507,1776,Polymorphus strumosoides,Europe,Acanthocephala,Aves
 508,1781,Prosthorhynchus formosus,Europe,Acanthocephala,Aves
 509,1784,Sphaerirostris lanceoides,Europe,Acanthocephala,Aves
-510,1788,Polymorphus brevis,North America,Acanthocephala,Aves
+510,1788,Polymorphus brevis,North America,Acanthocephala,Teleostei
 511,1790,Acanthocephalus luzus,Pacific Ocean,Acanthocephala,[]
 512,1792,Acanthosentis scomberomori,Pacific Ocean,Acanthocephala,Teleostei
 513,1794,Arhythmacanthus cynoglossi,Pacific Ocean,Acanthocephala,Teleostei
@@ -585,7 +585,7 @@
 583,2006,Acanthocephalus anthuris,Europe,Acanthocephala,Amphibia
 584,2008,Oncicola canis,North America,Acanthocephala,Mammalia
 585,2009,Pomphorhynchus bosniacus,Europe,Acanthocephala,Teleostei
-586,2012,Acanthocephalus bufonis,Asia,Acanthocephala,['Amphibia' 'Reptilia']
+586,2012,Acanthocephalus bufonis,Asia,Acanthocephala,Amphibia
 587,2014,Apororhynchus hemignathi,Antarctica,Acanthocephala,[]
 588,2019,Nephridiorhynchus majus,Europe,Acanthocephala,Mammalia
 589,2020,Oligacanthorhynchus circumflexus,Europe,Acanthocephala,Mammalia
@@ -696,11 +696,11 @@
 694,2264,Pomphorhynchus manasbalensis,Europe,Acanthocephala,Teleostei
 695,2265,Tenuiproboscis misgurni,Europe,Acanthocephala,Teleostei
 696,2267,Mediorhynchus petrotschenkoi,Europe,Acanthocephala,Aves
-697,2270,Paralongicollum nemacheili,Water Asia,Acanthocephala,['Malacostraca' 'Teleostei']
+697,2270,Paralongicollum nemacheili,Water Asia,Acanthocephala,Malacostraca
 698,2271,Polymorphus actuganensis,North America,Acanthocephala,Aves
 699,2273,Polymorphus kostylewi,Europe,Acanthocephala,[]
 700,2277,Arhythmorhynchus capellae,Europe,Acanthocephala,Aves
-701,2279,Centrorhynchus lanceoides,Asia,Acanthocephala,['Aves' 'Malacostraca']
+701,2279,Centrorhynchus lanceoides,Asia,Acanthocephala,Aves
 702,2280,Centrorhynchus skrjabini,Asia,Acanthocephala,Aves
 703,2316,Paracanthocephalus tenuirostris,Europe,Acanthocephala,Teleostei
 704,2317,Acanthocephalus acutulus,North America,Acanthocephala,Amphibia
@@ -754,7 +754,7 @@
 752,2504,Bolbosoma heteracanthe,Pacific Ocean,Acanthocephala,Teleostei
 753,2509,Bolbosoma paramuschiri,Indian Ocean,Acanthocephala,Mammalia
 754,2522,Corynosoma curilensis,Pacific Ocean,Acanthocephala,Mammalia
-755,2524,Corynosoma enhydri,Pacific Ocean,Acanthocephala,['Mammalia' 'Teleostei']
+755,2524,Corynosoma enhydri,Pacific Ocean,Acanthocephala,Mammalia
 756,2526,Corynosoma falcatum,North America,Acanthocephala,Mammalia
 757,2527,Corynosoma kurilense,Pacific Ocean,Acanthocephala,Mammalia
 758,2528,Corynosoma osmeri,North America,Acanthocephala,Mammalia
@@ -800,7 +800,7 @@
 798,2647,Moniliformis circumflexum,Europe,Acanthocephala,Mammalia
 799,2660,Dendronucleata americana,North America,Acanthocephala,[]
 800,2668,Neoechinorhynchus constrictus,North America,Acanthocephala,Reptilia
-801,2671,Pachysentis canicola,North America,Acanthocephala,['Mammalia' 'Reptilia']
+801,2671,Pachysentis canicola,North America,Acanthocephala,Reptilia
 802,2675,Pseudoacanthocephalus bufonicola,Asia,Acanthocephala,Amphibia
 803,2713,Plagiorhynchus ponticus,Europe,Acanthocephala,Aves
 804,2714,Polymorphus cincli,Europe,Acanthocephala,[]
@@ -866,7 +866,7 @@
 864,2868,Diorchis longiovum,North America,Cestoda,Aves
 865,2869,Diphyllobothrium alascense,Europe,Cestoda,Teleostei
 866,2870,Diphyllobothrium cordatum,Arctic Ocean,Cestoda,Mammalia
-867,2872,Diphyllobothrium dalliae,North America,Cestoda,['Mammalia' 'Teleostei']
+867,2872,Diphyllobothrium dalliae,North America,Cestoda,Teleostei
 868,2874,Diphyllobothrium dendriticum,Europe,Cestoda,Teleostei
 869,2878,Diphyllobothrium ditremum,Europe,Cestoda,Teleostei
 870,2879,Diphyllobothrium lanceolatum,Arctic Ocean,Cestoda,Mammalia
@@ -1049,7 +1049,7 @@
 1047,3120,Progynotaenia odhneri,Europe,Cestoda,Aves
 1048,3121,Proteocephalus ambloplitis,North America,Cestoda,Teleostei
 1049,3123,Proteocephalus manjuariphilus,North America,Cestoda,Holostei
-1050,3125,Proteocephalus singularis,North America,Cestoda,['Holostei' 'Teleostei']
+1050,3125,Proteocephalus singularis,North America,Cestoda,Teleostei
 1051,3126,Raillietina halli,North America,Cestoda,Mammalia
 1052,3128,Tatria appendiculata,South America,Cestoda,Aves
 1053,3130,Vampirolepis artibei,South America,Cestoda,Mammalia
@@ -1160,7 +1160,7 @@
 1158,3297,Echinobothrium raschii,Arctic Ocean,Cestoda,[]
 1159,3299,Echinocotyle nitida,Asia,Cestoda,Aves
 1160,3300,Eubothrium crassum,Europe,Cestoda,Teleostei
-1161,3301,Gilquinia squali,Pacific Ocean,Cestoda,Chondrichthyes
+1161,3301,Gilquinia squali,Pacific Ocean,Cestoda,Teleostei
 1162,3303,Grillotia borealis,Pacific Ocean,Cestoda,Chondrichthyes
 1163,3306,Grillotia erinaceus,Europe,Cestoda,Teleostei
 1164,3308,Gyrocotyle abyssicola,Arctic Ocean,Cestoda,Chondrichthyes
@@ -1239,7 +1239,7 @@
 1237,3480,Choanotaenia porosa,Europe,Cestoda,Aves
 1238,3488,Cloacotaenia megalops,North America,Cestoda,Aves
 1239,3496,Confluaria podicipina,Europe,Cestoda,Aves
-1240,3501,Diorchis brevis,Europe,Cestoda,Aves
+1240,3501,Diorchis brevis,Europe,Cestoda,Ostracoda
 1241,3503,Diorchis inflata,Asia,Cestoda,Aves
 1242,3529,Diorchis ransomi,Europe,Cestoda,Aves
 1243,3530,Diorchis sobolevi,Europe,Cestoda,Aves
@@ -1359,7 +1359,7 @@
 1357,3791,Caulobothrium anacolum,Pacific Ocean,Cestoda,Chondrichthyes
 1358,3792,Ceratobothrium xanthocephalum,Atlantic Ocean,Cestoda,Teleostei
 1359,3796,Chimaerarhynchus rougetae,Pacific Ocean,Cestoda,Chondrichthyes
-1360,3797,Christianella minuta,Atlantic Ocean,Cestoda,['Chondrichthyes' 'Teleostei']
+1360,3797,Christianella minuta,Atlantic Ocean,Cestoda,Chondrichthyes
 1361,3801,Clestobothrium neglectum,Atlantic Ocean,Cestoda,Teleostei
 1362,3802,Clistobothrium montaukensis,Atlantic Ocean,Cestoda,Chondrichthyes
 1363,3803,Clistobothrium tumidum,Indian Ocean,Cestoda,Chondrichthyes
@@ -1371,7 +1371,7 @@
 1369,3814,Cysticercoides menidiae,North America,Cestoda,Teleostei
 1370,3815,Dasyrhynchus giganteus,Atlantic Ocean,Cestoda,Teleostei
 1371,3819,Dasyrhynchus pacificus,Atlantic Ocean,Cestoda,Chondrichthyes
-1372,3821,Dasyrhynchus talismani,Pacific Ocean,Cestoda,Teleostei
+1372,3821,Dasyrhynchus talismani,Pacific Ocean,Cestoda,Chondrichthyes
 1373,3822,Dasyrhynchus variouncinatus,Pacific Ocean,Cestoda,Chondrichthyes
 1374,3824,Deanicola minor,Atlantic Ocean,Cestoda,Chondrichthyes
 1375,3827,Deanicola protentus,Atlantic Ocean,Cestoda,Chondrichthyes
@@ -1383,7 +1383,7 @@
 1381,3834,Dinobothrium septaria,Atlantic Ocean,Cestoda,Chondrichthyes
 1382,3837,Dioecotaenia cancellata,Atlantic Ocean,Cestoda,Chondrichthyes
 1383,3839,Diphyllobothrium hians,North America,Cestoda,Mammalia
-1384,3840,Diphyllobothrium osmeri,Atlantic Ocean,Cestoda,Teleostei
+1384,3840,Diphyllobothrium osmeri,Atlantic Ocean,Cestoda,Mammalia
 1385,3841,Diphyllobothrium sebago,Pacific Ocean,Cestoda,Teleostei
 1386,3843,Diphyllobothrium vogeli,North America,Cestoda,Teleostei
 1387,3846,Discobothrium arrhynchum,Atlantic Ocean,Cestoda,Chondrichthyes
@@ -1419,7 +1419,7 @@
 1417,3886,Eutetrarhynchus vooremi,Atlantic Ocean,Cestoda,[]
 1418,3888,Fimbriarioides intermedia,Europe,Cestoda,Aves
 1419,3889,Fistulicola plicatus,Pacific Ocean,Cestoda,Teleostei
-1420,3891,Flamingolepis liguloides,Europe,Cestoda,Aves
+1420,3891,Flamingolepis liguloides,Europe,Cestoda,Branchiopoda
 1421,3893,Floriceps saccatus,Pacific Ocean,Cestoda,Teleostei
 1422,3894,Gastrolecithus planus,Atlantic Ocean,Cestoda,Chondrichthyes
 1423,3895,Glyphobothrium zwerneri,Atlantic Ocean,Cestoda,Chondrichthyes
@@ -1452,7 +1452,7 @@
 1450,3953,Heteronybelinia minima,Indian Ocean,Cestoda,[]
 1451,3955,Heteronybelinia nipponica,Africa,Cestoda,Teleostei
 1452,3957,Heteronybelinia palliata,Indian Ocean,Cestoda,Chondrichthyes
-1453,3960,Heteronybelinia robusta,Indian Ocean,Cestoda,Chondrichthyes
+1453,3960,Heteronybelinia robusta,Indian Ocean,Cestoda,Teleostei
 1454,3961,Heteronybelinia rougetcampanae,Indian Ocean,Cestoda,Chondrichthyes
 1455,3962,Heteronybelinia yamagutii,Africa,Cestoda,Chondrichthyes
 1456,3964,Heterovitellus atlanticus,Atlantic Ocean,Cestoda,[]
@@ -1490,10 +1490,10 @@
 1488,4028,Nybelinia nipponica,Pacific Ocean,Cestoda,Teleostei
 1489,4029,Nybelinia oodes,Atlantic Ocean,Cestoda,Teleostei
 1490,4030,Nybelinia punctatissima,Atlantic Ocean,Cestoda,Teleostei
-1491,4031,Nybelinia riseri,Indian Ocean,Cestoda,['Chondrichthyes' 'Teleostei']
+1491,4031,Nybelinia riseri,Indian Ocean,Cestoda,Chondrichthyes
 1492,4032,Nybelinia robusta,Indian Ocean,Cestoda,Teleostei
 1493,4034,Nybelinia rougetcampanae,Atlantic Ocean,Cestoda,Chondrichthyes
-1494,4036,Nybelinia scoliodoni,Pacific Ocean,Cestoda,['Chondrichthyes' 'Teleostei']
+1494,4036,Nybelinia scoliodoni,Pacific Ocean,Cestoda,Teleostei
 1495,4037,Nybelinia senegalensis,Atlantic Ocean,Cestoda,Teleostei
 1496,4038,Nybelinia strongyla,Pacific Ocean,Cestoda,Teleostei
 1497,4039,Nybelinia yamagutii,Indian Ocean,Cestoda,Teleostei
@@ -1545,7 +1545,7 @@
 1543,4119,Probothriocephalus muelleri,Europe,Cestoda,[]
 1544,4120,Prochristianella tumidula,Indian Ocean,Cestoda,Chondrichthyes
 1545,4121,Progrillotia dollfusi,Atlantic Ocean,Cestoda,Chondrichthyes
-1546,4123,Prosobothrium armigerum,Pacific Ocean,Cestoda,['Chondrichthyes' 'Teleostei']
+1546,4123,Prosobothrium armigerum,Pacific Ocean,Cestoda,Chondrichthyes
 1547,4124,Proteocephalus ambiguus,North America,Cestoda,Teleostei
 1548,4125,Proteocephalus cernuae,Europe,Cestoda,Teleostei
 1549,4126,Proteocephalus gobiorum,Atlantic Ocean,Cestoda,Teleostei
@@ -1568,7 +1568,7 @@
 1566,4147,Pterobothrium fragile,Atlantic Ocean,Cestoda,[]
 1567,4149,Pterobothrium heteracanthum,Pacific Ocean,Cestoda,Teleostei
 1568,4150,Pterobothrium interruptum,North America,Cestoda,Teleostei
-1569,4151,Pterobothrium kingstoni,Atlantic Ocean,Cestoda,Chondrichthyes
+1569,4151,Pterobothrium kingstoni,Atlantic Ocean,Cestoda,Teleostei
 1570,4152,Pterobothrium lintoni,Indian Ocean,Cestoda,Teleostei
 1571,4154,Pterobothrium senegalense,Atlantic Ocean,Cestoda,Chondrichthyes
 1572,4158,Rhabdotobothrium anterophallum,Atlantic Ocean,Cestoda,Chondrichthyes
@@ -1591,7 +1591,7 @@
 1589,4204,Spathebothrium simplex,Pacific Ocean,Cestoda,Teleostei
 1590,4206,Sphyriocephalus dollfusi,Pacific Ocean,Cestoda,Teleostei
 1591,4207,Sphyriocephalus tergestinus,Pacific Ocean,Cestoda,Teleostei
-1592,4209,Sphyriocephalus viridis,Pacific Ocean,Cestoda,['Chondrichthyes' 'Teleostei']
+1592,4209,Sphyriocephalus viridis,Pacific Ocean,Cestoda,Chondrichthyes
 1593,4211,Strobilocephalus triangularis,Atlantic Ocean,Cestoda,Mammalia
 1594,4213,Taenia aurita,Atlantic Ocean,Cestoda,[]
 1595,4214,Tentacularia bicolor,Atlantic Ocean,Cestoda,[]
@@ -1741,7 +1741,7 @@
 1739,4487,Hymenolepis erinacei,Europe,Cestoda,Mammalia
 1740,4488,Hymenolepis singularis,Europe,Cestoda,Mammalia
 1741,4489,Khawia coregoni,Europe,Cestoda,Teleostei
-1742,4490,Mesocestoides litteratus,Europe,Cestoda,Mammalia
+1742,4490,Mesocestoides litteratus,Europe,Cestoda,Aves
 1743,4491,Molluscotaenia crassiscolex,Europe,Cestoda,Mammalia
 1744,4492,Multiceps multiceps,Europe,Cestoda,Mammalia
 1745,4493,Neoskrjabinolepis schaldybini,Europe,Cestoda,Mammalia
@@ -1749,12 +1749,12 @@
 1747,4498,Choanotaenia infundibulum,Asia,Cestoda,Aves
 1748,4499,Diploposthe skrjabini,Europe,Cestoda,Aves
 1749,4503,Leptotaenia skrjabini,Asia,Cestoda,Aves
-1750,4504,Mesocestoides petrowi,Asia,Cestoda,['Mammalia' 'Reptilia']
+1750,4504,Mesocestoides petrowi,Asia,Cestoda,Reptilia
 1751,4505,Paradilepis scolecina,Europe,Cestoda,Teleostei
 1752,4506,Rodentolepis awetjanae,Europe,Cestoda,Mammalia
 1753,4508,Skrjabinia cesticillus,Europe,Cestoda,Aves
 1754,4510,Taeniarhynchus saginatus,Africa,Cestoda,Mammalia
-1755,4511,Cladotaenia globifera,Europe,Cestoda,['Aves' 'Mammalia']
+1755,4511,Cladotaenia globifera,Europe,Cestoda,Aves
 1756,4512,Hymenolepis straminea,North America,Cestoda,Mammalia
 1757,4513,Mosgovoyia ctenoides,Europe,Cestoda,Mammalia
 1758,4514,Neoctenotaenia ctenoides,Europe,Cestoda,Mammalia
@@ -1898,7 +1898,7 @@
 1896,4722,Cysticercus cellulosae,Africa,Cestoda,Mammalia
 1897,4724,Davainea capillaris,South America,Cestoda,[]
 1898,4726,Davainea vigintivasus,Europe,Cestoda,[]
-1899,4727,Dendrouterina pilherodiae,Europe,Cestoda,Aves
+1899,4727,Dendrouterina pilherodiae,Europe,Cestoda,Teleostei
 1900,4728,Dilepis fuhrmanni,North America,Cestoda,Aves
 1901,4730,Dilepis unilateralis,South America,Cestoda,Aves
 1902,4732,Diphyllobothrium gracile,South America,Cestoda,[]
@@ -2194,7 +2194,7 @@
 2192,5161,Vampirolepis skrjabinariana,Europe,Cestoda,Mammalia
 2193,5162,Aploparaksis crassirostris,Europe,Cestoda,Aves
 2194,5164,Baerietta gerrhonoti,North America,Cestoda,Reptilia
-2195,5166,Bitegmen gerrhonoti,North America,Cestoda,Amphibia
+2195,5166,Bitegmen gerrhonoti,North America,Cestoda,Reptilia
 2196,5171,Cephalochlamys namaquensis,Africa,Cestoda,Amphibia
 2197,5173,Dicranotaenia amphitricha,North America,Cestoda,Aves
 2198,5178,Hymenolepis longi,North America,Cestoda,Mammalia
@@ -2248,7 +2248,7 @@
 2246,5274,Gastrotaenia cygni,North America,Cestoda,Aves
 2247,5275,Glaridacris catostomi,North America,Cestoda,Teleostei
 2248,5276,Glaridacris laruei,North America,Cestoda,Teleostei
-2249,5277,Haplobothrium globuliforme,North America,Cestoda,Holostei
+2249,5277,Haplobothrium globuliforme,North America,Cestoda,Teleostei
 2250,5278,Hunterella nodulosa,North America,Cestoda,Teleostei
 2251,5279,Hymenolepis anatina,North America,Cestoda,Aves
 2252,5280,Hymenolepis barrowensis,North America,Cestoda,Aves
@@ -2265,7 +2265,7 @@
 2263,5293,Hymenolepis oregonensis,North America,Cestoda,Mammalia
 2264,5294,Hymenolepis rauschi,North America,Cestoda,Aves
 2265,5295,Hymenolepis somateriae,Europe,Cestoda,Aves
-2266,5296,Hymenolepis trombidacantha,North America,Cestoda,['Aves' 'Malacostraca']
+2266,5296,Hymenolepis trombidacantha,North America,Cestoda,Aves
 2267,5297,Isoglaridacris bulbocirrus,North America,Cestoda,[]
 2268,5298,Lateriporus geographicus,Europe,Cestoda,Aves
 2269,5299,Lateriporus mathevossianae,Europe,Cestoda,Aves
@@ -2295,8 +2295,8 @@
 2293,5327,Paranoplocephala infrequens,North America,Cestoda,Mammalia
 2294,5328,Paranoplocephala lemmi,North America,Cestoda,Mammalia
 2295,5330,Paranoplocephala variabilis,North America,Cestoda,Mammalia
-2296,5332,Paruterina candelabraria,Europe,Cestoda,['Aves' 'Mammalia']
-2297,5333,Paruterina rauschi,North America,Cestoda,Aves
+2296,5332,Paruterina candelabraria,Europe,Cestoda,Mammalia
+2297,5333,Paruterina rauschi,North America,Cestoda,Mammalia
 2298,5334,Pliovitellaria wisconsinensis,North America,Cestoda,Teleostei
 2299,5336,Proteocephalus arcticus,North America,Cestoda,Teleostei
 2300,5338,Proteocephalus coregoni,North America,Cestoda,Teleostei
@@ -2410,7 +2410,7 @@
 2408,5530,Aprostatandrya octodonensis,South America,Cestoda,Mammalia
 2409,5532,Baerietta chilensis,South America,Cestoda,Amphibia
 2410,5534,Cysticercus racemosus,Africa,Cestoda,Mammalia
-2411,5536,Diphyllobothrium pacificum,Pacific Ocean,Cestoda,['Mammalia' 'Teleostei']
+2411,5536,Diphyllobothrium pacificum,Pacific Ocean,Cestoda,Teleostei
 2412,5537,Diplophallus taglei,South America,Cestoda,Mammalia
 2413,5539,Flamingolepis chileno,South America,Cestoda,Aves
 2414,5540,Monogynolepis taglei,South America,Cestoda,Mammalia
@@ -2534,7 +2534,7 @@
 2532,5760,Dasyrhynchus pillersi,Indian Ocean,Cestoda,Teleostei
 2533,5762,Eutetrarhynchus leucomelanus,Indian Ocean,Cestoda,Chondrichthyes
 2534,5763,Grillotia matheri,Pacific Ocean,Cestoda,Chondrichthyes
-2535,5764,Grillotia overstreeti,Pacific Ocean,Cestoda,Chondrichthyes
+2535,5764,Grillotia overstreeti,Pacific Ocean,Cestoda,Teleostei
 2536,5765,Grillotia shipleyi,Pacific Ocean,Cestoda,Chondrichthyes
 2537,5766,Mecistobothrium johnstonei,Indian Ocean,Cestoda,Chondrichthyes
 2538,5767,Nybelinia equidentatus,Indian Ocean,Cestoda,Chondrichthyes
@@ -2543,7 +2543,7 @@
 2541,5770,Otobothrium carcharidis,Atlantic Ocean,Cestoda,Chondrichthyes
 2542,5771,Proemotobothrium linstowi,Pacific Ocean,Cestoda,Chondrichthyes
 2543,5775,Pterobothrium minimum,Indian Ocean,Cestoda,Chondrichthyes
-2544,5776,Pterobothrium platycephalum,Indian Ocean,Cestoda,Chondrichthyes
+2544,5776,Pterobothrium platycephalum,Indian Ocean,Cestoda,Teleostei
 2545,5777,Pterobothrium rubromaculatum,Indian Ocean,Cestoda,Chondrichthyes
 2546,5778,Pterobothrium southwelli,Indian Ocean,Cestoda,Chondrichthyes
 2547,5779,Rhinebothrium shipleyi,Pacific Ocean,Cestoda,Chondrichthyes
@@ -2557,7 +2557,7 @@
 2555,5787,Tetragonocephalum trygonis,Indian Ocean,Cestoda,Chondrichthyes
 2556,5788,Tetragonocephalum uarnak,Indian Ocean,Cestoda,Chondrichthyes
 2557,5790,Tetrarhynchobothrium rossi,Pacific Ocean,Cestoda,Chondrichthyes
-2558,5792,Tetrarhynchobothrium unionifactor,Indian Ocean,Cestoda,['Bivalvia' 'Chondrichthyes']
+2558,5792,Tetrarhynchobothrium unionifactor,Indian Ocean,Cestoda,Chondrichthyes
 2559,5794,Tetrarhynchus aetobatidis,Asia,Cestoda,Chondrichthyes
 2560,5795,Tetrarhynchus ceylonicus,Pacific Ocean,Cestoda,Chondrichthyes
 2561,5796,Tetrarhynchus gangeticus,Indian Ocean,Cestoda,Chondrichthyes
@@ -2585,7 +2585,7 @@
 2583,5822,Hymenolepis recurvirostrae,North America,Cestoda,Aves
 2584,5823,Hymenolepis weldensis,North America,Cestoda,Mammalia
 2585,5825,Raillietina loeweni,North America,Cestoda,Mammalia
-2586,5827,Joyeuxiella echinorhynchoides,Asia,Cestoda,Mammalia
+2586,5827,Joyeuxiella echinorhynchoides,Asia,Cestoda,Reptilia
 2587,5829,Coenurus cerebralis,Africa,Cestoda,Mammalia
 2588,5830,Acotylepis anacetabulata,Europe,Cestoda,Mammalia
 2589,5832,Amoebotaenia cuneata,Asia,Cestoda,Aves
@@ -2680,7 +2680,7 @@
 2678,5956,Krimi rallida,Europe,Cestoda,Aves
 2679,5957,Lateriporus mahadiaensis,Europe,Cestoda,Aves
 2680,5958,Liga crateriformis,Europe,Cestoda,[]
-2681,5960,Ligula colymbi,Europe,Cestoda,Aves
+2681,5960,Ligula colymbi,Europe,Cestoda,Teleostei
 2682,5961,Limnolepis amphitricha,Europe,Cestoda,Aves
 2683,5962,Mesocestoides angustatus,Asia,Cestoda,Mammalia
 2684,5965,Mesocestoides perlatus,Europe,Cestoda,Aves
@@ -3249,7 +3249,7 @@
 3247,6811,Anomotaenia cingulata,Europe,Cestoda,Aves
 3248,6812,Anomotaenia clavigera,Europe,Cestoda,Aves
 3249,6813,Anomotaenia passerina,Europe,Cestoda,Aves
-3250,6815,Choanotaenia crateriformis,Europe,Cestoda,['Aves' 'Insecta']
+3250,6815,Choanotaenia crateriformis,Europe,Cestoda,Insecta
 3251,6816,Choanotaenia mutabilis,Europe,Cestoda,Aves
 3252,6817,Dendrouterina fuhrmanni,Europe,Cestoda,Aves
 3253,6818,Dilepis nymphoides,Europe,Cestoda,Aves
@@ -3314,7 +3314,7 @@
 3312,6892,Anoplocephala gigantea,Asia,Cestoda,Mammalia
 3313,6893,Anoplocephala latissima,Asia,Cestoda,Mammalia
 3314,6895,Anoplocephala manubriata,Asia,Cestoda,[]
-3315,6897,Avitellina lahorea,Asia,Cestoda,['Arachnida' 'Mammalia']
+3315,6897,Avitellina lahorea,Asia,Cestoda,Arachnida
 3316,6898,Baerietta baeri,Asia,Cestoda,Amphibia
 3317,6901,Bertiella plastica,Asia,Cestoda,Mammalia
 3318,6906,Bilobulata georgievi,Asia,Cestoda,Teleostei
@@ -3556,7 +3556,7 @@
 3554,7238,Polyonchobothrium indicum,Asia,Cestoda,[]
 3555,7240,Proorchida shindei,Asia,Cestoda,[]
 3556,7241,Proteocephalus bunpurwaensis,Asia,Cestoda,[]
-3557,7242,Proteocephalus ritaii,Asia,Cestoda,['Mammalia' 'Teleostei']
+3557,7242,Proteocephalus ritaii,Asia,Cestoda,Teleostei
 3558,7245,Proteocephalus tigrinus,Asia,Cestoda,[]
 3559,7246,Proteocephalus vitellaris,Asia,Cestoda,Teleostei
 3560,7248,Proteocephalus woodlandi,Asia,Cestoda,[]
@@ -3659,7 +3659,7 @@
 3657,7359,Tentacularia ilisha,Asia,Cestoda,[]
 3658,7360,Tetrabothrioporina indica,Asia,Cestoda,Aves
 3659,7361,Thaparea rainai,Asia,Cestoda,Aves
-3660,7363,Thysaniezia giardi,Asia,Cestoda,['Arachnida' 'Mammalia']
+3660,7363,Thysaniezia giardi,Asia,Cestoda,Mammalia
 3661,7364,Thysanotaenia alii,Asia,Cestoda,[]
 3662,7365,Valipora aurangabadensis,Europe,Cestoda,Aves
 3663,7366,Valipora maharashtri,Asia,Cestoda,Aves
@@ -3742,7 +3742,7 @@
 3740,7499,Heteronybelinia heteromorphi,Indian Ocean,Cestoda,Chondrichthyes
 3741,7503,Macrobothridium rhynchobati,Indian Ocean,Cestoda,[]
 3742,7505,Microbothriorhynchus reimeri,Indian Ocean,Cestoda,Teleostei
-3743,7513,Nybelinia anthicosum,Indian Ocean,Cestoda,['Cephalopoda' 'Teleostei']
+3743,7513,Nybelinia anthicosum,Indian Ocean,Cestoda,Cephalopoda
 3744,7516,Nybelinia erythraea,Indian Ocean,Cestoda,[]
 3745,7517,Nybelinia gopalai,Indian Ocean,Cestoda,Teleostei
 3746,7526,Nybelinia sakanariae,Indian Ocean,Cestoda,Teleostei
@@ -3772,7 +3772,7 @@
 3770,7579,Blarinolepis blarinae,North America,Cestoda,Mammalia
 3771,7580,Cylindrotaenia quadrijugosa,North America,Cestoda,[]
 3772,7581,Glaridacris oligorchis,Europe,Cestoda,Teleostei
-3773,7583,Khawia iowensis,North America,Cestoda,['Clitellata' 'Teleostei']
+3773,7583,Khawia iowensis,North America,Cestoda,Clitellata
 3774,7584,Nematotaenoides ranae,North America,Cestoda,[]
 3775,7585,Ophiotaenia saphenus,North America,Cestoda,[]
 3776,7586,Tatria duodecacantha,North America,Cestoda,Aves
@@ -3799,7 +3799,7 @@
 3797,7616,Khawia grypi,Asia,Cestoda,Teleostei
 3798,7617,Khawia lutei,Asia,Cestoda,Teleostei
 3799,7619,Liga gallinulae,Europe,Cestoda,Aves
-3800,7622,Oochoristica agamae,Asia,Cestoda,['Mammalia' 'Reptilia']
+3800,7622,Oochoristica agamae,Asia,Cestoda,Reptilia
 3801,7624,Oochoristica nupta,Asia,Cestoda,[]
 3802,7625,Panuwa valelli,Indian Ocean,Cestoda,Aves
 3803,7628,Parvibursa chrysolampidis,Europe,Cestoda,Aves
@@ -3898,7 +3898,7 @@
 3896,7827,Hymenolepis javanensis,Asia,Cestoda,Aves
 3897,7831,Vampirolepis kerivoulae,Asia,Cestoda,Mammalia
 3898,7835,Caryophyllaeus kashmirensis,Asia,Cestoda,[]
-3899,7839,Aploparaksis birulai,Asia,Cestoda,['Aves' 'Clitellata']
+3899,7839,Aploparaksis birulai,Asia,Cestoda,Aves
 3900,7842,Armadoskrjabinia medici,Europe,Cestoda,Aves
 3901,7844,Avocettolepis vaginata,Europe,Cestoda,[]
 3902,7848,Catenotaenia rhombomidis,Asia,Cestoda,Mammalia
@@ -3906,7 +3906,7 @@
 3904,7858,Dicranotaenia tenuirostris,Asia,Cestoda,Maxillopoda
 3905,7859,Dimorphocanthus podicipina,Europe,Cestoda,Aves
 3906,7866,Diorchis endacantha,Europe,Cestoda,Aves
-3907,7881,Drepanidotaenia przewalskii,Asia,Cestoda,['Gastropoda' 'Maxillopoda']
+3907,7881,Drepanidotaenia przewalskii,Asia,Cestoda,Gastropoda
 3908,7883,Dubininolepis rostellata,North America,Cestoda,Aves
 3909,7884,Echinatrium skrjabini,Europe,Cestoda,Aves
 3910,7891,Echinocotyle uralensis,Asia,Cestoda,Aves
@@ -3927,7 +3927,7 @@
 3925,7919,Monotestilepis tadornae,Europe,Cestoda,Aves
 3926,7920,Nadejdolepis lauriei,Europe,Cestoda,Aves
 3927,7921,Nematoparataenia skrjabini,Europe,Cestoda,Aves
-3928,7922,Parabiglandatrium liguloides,Asia,Cestoda,['Aves' 'Ostracoda']
+3928,7922,Parabiglandatrium liguloides,Asia,Cestoda,Aves
 3929,7923,Pseudhymenolepis nepalensis,Asia,Cestoda,Mammalia
 3930,7924,Pseudhymenolepis turkestanica,Asia,Cestoda,Mammalia
 3931,7925,Raillietina gvosdevi,Asia,Cestoda,Aves
@@ -4348,7 +4348,7 @@
 4346,8814,Platybothrium jondoeorum,Atlantic Ocean,Cestoda,Chondrichthyes
 4347,8815,Plesiorhynchus etmopteri,Pacific Ocean,Cestoda,Chondrichthyes
 4348,8819,Prochristianella butlerae,Pacific Ocean,Cestoda,Chondrichthyes
-4349,8820,Proemotobothrium southwelli,Pacific Ocean,Cestoda,['Chondrichthyes' 'Teleostei']
+4349,8820,Proemotobothrium southwelli,Pacific Ocean,Cestoda,Teleostei
 4350,8822,Pseudogrillotia basipunctata,Atlantic Ocean,Cestoda,[]
 4351,8823,Pseudogrillotia peruviana,Atlantic Ocean,Cestoda,Teleostei
 4352,8830,Pterobothrioides carvajali,Pacific Ocean,Cestoda,Chondrichthyes
@@ -4437,7 +4437,7 @@
 4435,8987,Diorchis ovofurcata,Europe,Cestoda,Aves
 4436,8988,Dubininolepis capillaroides,Europe,Cestoda,Aves
 4437,8989,Echinocotyle druzniensis,Europe,Cestoda,Aves
-4438,8990,Fimbriaria czaplinskii,Europe,Cestoda,['Aves' 'Ostracoda']
+4438,8990,Fimbriaria czaplinskii,Europe,Cestoda,Aves
 4439,8991,Fimbriaria mergi,Europe,Cestoda,Aves
 4440,8992,Fimbriaria sarcinalis,Europe,Cestoda,Aves
 4441,8993,Fimbriaria teresae,Europe,Cestoda,Aves
@@ -4741,7 +4741,7 @@
 4739,9503,Acanthocheilus quadridentatus,Atlantic Ocean,Nematoda,[]
 4740,9505,Agamonema ranzaniae,Atlantic Ocean,Nematoda,[]
 4741,9506,Anguillicola crassus,Atlantic Ocean,Nematoda,Teleostei
-4742,9507,Anisakis physeteris,Pacific Ocean,Nematoda,Mammalia
+4742,9507,Anisakis physeteris,Pacific Ocean,Nematoda,Teleostei
 4743,9509,Anisakis simplex,Atlantic Ocean,Nematoda,Teleostei
 4744,9510,Ascaris appendiculata,Atlantic Ocean,Nematoda,Teleostei
 4745,9511,Ascaris belonesvulgaris,Atlantic Ocean,Nematoda,Teleostei
@@ -4749,7 +4749,7 @@
 4747,9513,Ascaris engraulidis,Atlantic Ocean,Nematoda,Teleostei
 4748,9515,Capillaria bainae,Atlantic Ocean,Nematoda,Teleostei
 4749,9517,Contracaecum clavatum,Atlantic Ocean,Nematoda,Teleostei
-4750,9518,Cosmocephalus obvelatus,Europe,Nematoda,Teleostei
+4750,9518,Cosmocephalus obvelatus,Europe,Nematoda,Aves
 4751,9519,Cucullanus campanae,Atlantic Ocean,Nematoda,Teleostei
 4752,9520,Cucullanus carettae,Atlantic Ocean,Nematoda,Reptilia
 4753,9521,Cucullanus hians,Atlantic Ocean,Nematoda,Teleostei
@@ -4770,11 +4770,11 @@
 4768,9558,Pseudocapillaria adriatica,Atlantic Ocean,Nematoda,Teleostei
 4769,9559,Raphidascaris acus,Europe,Nematoda,Teleostei
 4770,9561,Spiropterina dacnodes,Atlantic Ocean,Nematoda,Chondrichthyes
-4771,9564,Sulcascaris sulcata,Atlantic Ocean,Nematoda,Reptilia
+4771,9564,Sulcascaris sulcata,Atlantic Ocean,Nematoda,Bivalvia
 4772,9565,Contracaecum fabri,Atlantic Ocean,Nematoda,Teleostei
 4773,9566,Physaloptera brevivaginata,Europe,Nematoda,Mammalia
 4774,9568,Mazamastrongylus odocoilei,North America,Nematoda,Mammalia
-4775,9569,Parelaphostrongylus tenuis,North America,Nematoda,Mammalia
+4775,9569,Parelaphostrongylus tenuis,North America,Nematoda,Gastropoda
 4776,9571,Ascaris tarbagan,Water Asia,Nematoda,Mammalia
 4777,9572,Capillaria bovis,Europe,Nematoda,Mammalia
 4778,9573,Crenosoma vulpis,Europe,Nematoda,Mammalia
@@ -4851,7 +4851,7 @@
 4849,9656,Philonema agubernaculum,North America,Nematoda,Teleostei
 4850,9658,Physocephalus sexalatus,Europe,Nematoda,Mammalia
 4851,9659,Porrocaecum depressum,Europe,Nematoda,Aves
-4852,9661,Protostrongylus boughtoni,North America,Nematoda,Mammalia
+4852,9661,Protostrongylus boughtoni,North America,Nematoda,Gastropoda
 4853,9665,Protostrongylus rushi,North America,Nematoda,Mammalia
 4854,9667,Quadriplotriaena hypsokysta,North America,Nematoda,Aves
 4855,9668,Rhabdias americanus,North America,Nematoda,[]
@@ -4874,7 +4874,7 @@
 4872,9687,Stephanofilaria stilesi,North America,Nematoda,Insecta
 4873,9688,Streptocara crassicauda,Europe,Nematoda,Aves
 4874,9689,Streptocara incognita,North America,Nematoda,Aves
-4875,9690,Thelazia skrjabini,North America,Nematoda,['Insecta' 'Mammalia']
+4875,9690,Thelazia skrjabini,North America,Nematoda,Mammalia
 4876,9691,Toxocara canis,Africa,Nematoda,Mammalia
 4877,9692,Trichuris schumakovitschi,North America,Nematoda,Mammalia
 4878,9693,Amidostomum anseris,North America,Nematoda,Aves
@@ -4889,7 +4889,7 @@
 4887,9705,Strongyloides stercoralis,Africa,Nematoda,Mammalia
 4888,9706,Trichuris trichiura,Africa,Nematoda,Mammalia
 4889,9707,Trichuris vulpis,North America,Nematoda,Mammalia
-4890,9708,Brugia malayi,Asia,Nematoda,Mammalia
+4890,9708,Brugia malayi,Asia,Nematoda,Insecta
 4891,9709,Dipetalonema perstans,Africa,Nematoda,Mammalia
 4892,9711,Johnstonmawsonia africana,Africa,Nematoda,Teleostei
 4893,9712,Loa loa,Africa,Nematoda,Mammalia
@@ -4925,7 +4925,7 @@
 4923,9767,Amphibiocapillaria serpentina,North America,Nematoda,Reptilia
 4924,9768,Ancyracanthopsis quadripartitia,Europe,Nematoda,Aves
 4925,9770,Angiostrongylus cantonensis,North America,Nematoda,Mammalia
-4926,9788,Angiostrongylus costaricensis,South America,Nematoda,Mammalia
+4926,9788,Angiostrongylus costaricensis,South America,Nematoda,Gastropoda
 4927,9790,Aoruroides rosario,North America,Nematoda,Diplopoda
 4928,9792,Aoruroides travassosi,North America,Nematoda,Insecta
 4929,9794,Aplectana cubana,North America,Nematoda,Amphibia
@@ -4950,7 +4950,7 @@
 4948,9843,Cucullanus caballeroi,North America,Nematoda,Teleostei
 4949,9845,Dudekemia cubana,North America,Nematoda,Diplopoda
 4950,9847,Enterobius vermicularis,Africa,Nematoda,Mammalia
-4951,9848,Eustrongylides ignotus,North America,Nematoda,Aves
+4951,9848,Eustrongylides ignotus,North America,Nematoda,Teleostei
 4952,9849,Foleyella brachyoptera,North America,Nematoda,Amphibia
 4953,9851,Glaber poeyi,North America,Nematoda,[]
 4954,9852,Gongylonema musculi,North America,Nematoda,Mammalia
@@ -5037,7 +5037,7 @@
 5035,9988,Tricholeiperia trinidadensis,North America,Nematoda,Mammalia
 5036,9990,Tridentocapillaria tridens,North America,Nematoda,Aves
 5037,9996,Tropisurus nouveli,North America,Nematoda,Aves
-5038,9997,Wuchereria bancrofti,Africa,Nematoda,Mammalia
+5038,9997,Wuchereria bancrofti,Africa,Nematoda,Insecta
 5039,9998,Xyo xiphacanthus,South America,Nematoda,[]
 5040,9999,Yseria quadripartita,Europe,Nematoda,Aves
 5041,10000,Aliascaris indica,Indian Ocean,Nematoda,Chondrichthyes
@@ -5141,7 +5141,7 @@
 5139,10138,Camallanus truncatus,Europe,Nematoda,Teleostei
 5140,10139,Contracaecum microcephalum,Europe,Nematoda,Aves
 5141,10140,Anisakis kuekenthalii,Pacific Ocean,Nematoda,Mammalia
-5142,10144,Anisakis typica,Atlantic Ocean,Nematoda,['Mammalia' 'Teleostei']
+5142,10144,Anisakis typica,Atlantic Ocean,Nematoda,Mammalia
 5143,10145,Ascaris bulbosa,Arctic Ocean,Nematoda,Mammalia
 5144,10146,Ascarophis arctica,Europe,Nematoda,Teleostei
 5145,10147,Ascarophis extalicola,Europe,Nematoda,Teleostei
@@ -5393,7 +5393,7 @@
 5391,10496,Kalicephalus viperae,Europe,Nematoda,[]
 5392,10497,Molinostrongylus heydoni,Asia,Nematoda,Mammalia
 5393,10498,Neoxysomatium caucasicum,Europe,Nematoda,[]
-5394,10499,Oswaldocruzia goezei,Europe,Nematoda,['Amphibia' 'Mammalia' 'Reptilia']
+5394,10499,Oswaldocruzia goezei,Europe,Nematoda,Mammalia
 5395,10500,Paraentomelas dujardini,Europe,Nematoda,Reptilia
 5396,10501,Pelecitus armenicus,Europe,Nematoda,Aves
 5397,10502,Skrjabinocara timofejevi,Europe,Nematoda,[]
@@ -5492,7 +5492,7 @@
 5490,10655,Contracaecum ogmorhini,Indian Ocean,Nematoda,Mammalia
 5491,10657,Contracaecum pedum,Atlantic Ocean,Nematoda,Teleostei
 5492,10658,Contracaecum robustum,Asia,Nematoda,Teleostei
-5493,10659,Contracaecum septentrionale,Europe,Nematoda,['Aves' 'Teleostei']
+5493,10659,Contracaecum septentrionale,Europe,Nematoda,Teleostei
 5494,10664,Crassicauda anthonyi,Atlantic Ocean,Nematoda,Mammalia
 5495,10665,Crassicauda carbonelli,Atlantic Ocean,Nematoda,Mammalia
 5496,10666,Crassicauda duguyi,Atlantic Ocean,Nematoda,Mammalia
@@ -5539,7 +5539,7 @@
 5537,10725,Dichelyne pomadasysi,Atlantic Ocean,Nematoda,Teleostei
 5538,10726,Dichelyne spinicaudatus,Atlantic Ocean,Nematoda,Teleostei
 5539,10727,Domorganus beklemishevi,Atlantic Ocean,Nematoda,Clitellata
-5540,10729,Echinocephalus pseudouncinatus,Pacific Ocean,Nematoda,Chondrichthyes
+5540,10729,Echinocephalus pseudouncinatus,Pacific Ocean,Nematoda,Gastropoda
 5541,10731,Echinocephalus sinensis,Atlantic Ocean,Nematoda,Teleostei
 5542,10736,Echinomermella matsi,Europe,Nematoda,Echinoidea
 5543,10737,Eucoleus contortus,Europe,Nematoda,Aves
@@ -6062,7 +6062,7 @@
 6060,11494,Oesophagostomoides eppingensis,Australia,Nematoda,Mammalia
 6061,11495,Oesophagostomoides giltneri,Australia,Nematoda,Mammalia
 6062,11496,Onchocerca gibsoni,Asia,Nematoda,Mammalia
-6063,11497,Ophidascaris moreliae,Australia,Nematoda,['Mammalia' 'Reptilia']
+6063,11497,Ophidascaris moreliae,Australia,Nematoda,Reptilia
 6064,11498,Ophidascaris pyrrhus,Australia,Nematoda,Reptilia
 6065,11511,Ophidascaris robertsi,Australia,Nematoda,Mammalia
 6066,11512,Oslerus osleri,North America,Nematoda,Mammalia
@@ -6298,7 +6298,7 @@
 6296,11835,Metastrongylus elongatus,Europe,Nematoda,Mammalia
 6297,11836,Metastrongylus pudendotectus,Europe,Nematoda,Mammalia
 6298,11837,Metastrongylus salmi,Europe,Nematoda,Mammalia
-6299,11839,Mirzaiella asiatica,Asia,Nematoda,Mammalia
+6299,11839,Mirzaiella asiatica,Asia,Nematoda,Insecta
 6300,11840,Oesophagostomum dentatum,Europe,Nematoda,Mammalia
 6301,11841,Oesophagostomum longicaudatum,Europe,Nematoda,Mammalia
 6302,11842,Onchocerca lienalis,Europe,Nematoda,Mammalia
@@ -6546,7 +6546,7 @@
 6544,12161,Trichostrongylus vitrinus,Europe,Nematoda,Mammalia
 6545,12162,Trichuris capreoli,Europe,Nematoda,Mammalia
 6546,12163,Dracunculus medinensis,Africa,Nematoda,Mammalia
-6547,12167,Onchocerca volvulus,Africa,Nematoda,Mammalia
+6547,12167,Onchocerca volvulus,Africa,Nematoda,Insecta
 6548,12169,Acanthoxyuris beecrofti,Africa,Nematoda,Mammalia
 6549,12170,Batrachocamallanus occidentalis,Africa,Nematoda,Amphibia
 6550,12172,Batrachocamallanus siluranae,Africa,Nematoda,Amphibia
@@ -6560,7 +6560,7 @@
 6558,12186,Procamallanus laeviconchus,Africa,Nematoda,Teleostei
 6559,12187,Spironoura petrei,Africa,Nematoda,Teleostei
 6560,12188,Aplectana vellardi,South America,Nematoda,[]
-6561,12191,Protrellus aurifluus,Pacific Ocean,Nematoda,Reptilia
+6561,12191,Protrellus aurifluus,Pacific Ocean,Nematoda,Insecta
 6562,12192,Rhabdias fuelleborni,South America,Nematoda,Amphibia
 6563,12194,Binema ornata,South America,Nematoda,Insecta
 6564,12196,Caroloxyurus boliviensis,South America,Nematoda,Mammalia
@@ -6617,7 +6617,7 @@
 6615,12316,Anoplostrongylus paradoxus,South America,Nematoda,Mammalia
 6616,12317,Aonchotheca magnifica,South America,Nematoda,Mammalia
 6617,12318,Aonchotheca parca,South America,Nematoda,Mammalia
-6618,12320,Aorurus agile,South America,Nematoda,['Diplopoda' 'Insecta']
+6618,12320,Aorurus agile,South America,Nematoda,Diplopoda
 6619,12322,Aorurus insularis,South America,Nematoda,[]
 6620,12323,Aplectana albae,South America,Nematoda,[]
 6621,12325,Aplectana crossodactyli,South America,Nematoda,Amphibia
@@ -6930,7 +6930,7 @@
 6928,12825,Ophidascaris obconica,South America,Nematoda,Reptilia
 6929,12827,Ophidascaris sicki,South America,Nematoda,Reptilia
 6930,12831,Ophidascaris trichuriformis,South America,Nematoda,Reptilia
-6931,12840,Ornithocapillaria appendiculata,South America,Nematoda,Aves
+6931,12840,Ornithocapillaria appendiculata,South America,Nematoda,Teleostei
 6932,12841,Ortleppascaris alata,South America,Nematoda,Reptilia
 6933,12842,Oswaldocruzia lopezi,South America,Nematoda,Amphibia
 6934,12844,Oswaldocruzia subauriculatus,South America,Nematoda,Amphibia
@@ -7203,12 +7203,12 @@
 7201,13280,Zonothrix izecksohni,South America,Nematoda,Insecta
 7202,13282,Zonothrix paraense,South America,Nematoda,Insecta
 7203,13283,Zonothrix tropisterna,South America,Nematoda,Insecta
-7204,13285,Baylisascaris procyonis,North America,Nematoda,Mammalia
+7204,13285,Baylisascaris procyonis,North America,Nematoda,Aves
 7205,13286,Capillaria nyrocinarum,Europe,Nematoda,Aves
 7206,13287,Capillaria quiscali,North America,Nematoda,Aves
 7207,13289,Chabaudgolvania waldeni,North America,Nematoda,Amphibia
 7208,13290,Chandlerella chitwoodae,North America,Nematoda,Aves
-7209,13292,Desmidocercella numidica,Europe,Nematoda,Aves
+7209,13292,Desmidocercella numidica,Europe,Nematoda,Teleostei
 7210,13293,Echinuria hypognatha,Europe,Nematoda,Aves
 7211,13294,Hysterothylacium brachyurum,North America,Nematoda,Teleostei
 7212,13296,Megalobatrachonema moraveci,North America,Nematoda,Amphibia
@@ -7285,7 +7285,7 @@
 7283,13396,Molinostrongylus panousei,Asia,Nematoda,Mammalia
 7284,13397,Molinostrongylus skrjabini,Europe,Nematoda,Mammalia
 7285,13399,Muellerius capillaris,Europe,Nematoda,Mammalia
-7286,13401,Neostrongylus linearis,Europe,Nematoda,Mammalia
+7286,13401,Neostrongylus linearis,Europe,Nematoda,Gastropoda
 7287,13402,Ostertagia capreoli,Europe,Nematoda,[]
 7288,13403,Ostertagia ryjikovi,Europe,Nematoda,Mammalia
 7289,13404,Oswaldocruzia bialata,Europe,Nematoda,Amphibia
@@ -7412,7 +7412,7 @@
 7410,13582,Spauligodon mearnsi,North America,Nematoda,Reptilia
 7411,13584,Strongyluris riversidensis,North America,Nematoda,Reptilia
 7412,13585,Strongyluris rubra,North America,Nematoda,Reptilia
-7413,13587,Thelazia californiensis,North America,Nematoda,['Insecta' 'Mammalia']
+7413,13587,Thelazia californiensis,North America,Nematoda,Mammalia
 7414,13588,Thominx cecumitis,North America,Nematoda,Aves
 7415,13589,Trichostrongylus calcaratus,North America,Nematoda,Mammalia
 7416,13590,Trichuris fossor,North America,Nematoda,Mammalia
@@ -7862,7 +7862,7 @@
 7860,14333,Capillaria fujianensis,Asia,Nematoda,[]
 7861,14334,Capillaria fuzhouensis,Asia,Nematoda,Teleostei
 7862,14336,Capillaria honghuensis,Asia,Nematoda,[]
-7863,14337,Capillaria philippinensis,Africa,Nematoda,Mammalia
+7863,14337,Capillaria philippinensis,Africa,Nematoda,Teleostei
 7864,14338,Capillaria ptyasi,Asia,Nematoda,[]
 7865,14340,Capillaria ranae,Asia,Nematoda,[]
 7866,14341,Capillaria sinipercae,Asia,Nematoda,Teleostei
@@ -8211,7 +8211,7 @@
 8209,14884,Toxascaris transfuga,North America,Nematoda,Mammalia
 8210,14885,Trichinella britovi,Europe,Nematoda,Mammalia
 8211,14886,Trichuris suis,Europe,Nematoda,Mammalia
-8212,14887,Varestrongylus capreoli,Europe,Nematoda,Mammalia
+8212,14887,Varestrongylus capreoli,Europe,Nematoda,Gastropoda
 8213,14888,Varestrongylus sagittatus,Europe,Nematoda,Mammalia
 8214,14889,Anguillicola scomberoidei,Atlantic Ocean,Nematoda,Teleostei
 8215,14890,Baruscapillaria tiaras,Europe,Nematoda,Aves
@@ -8354,7 +8354,7 @@
 8352,15102,Bourgelatia diducta,Europe,Nematoda,Mammalia
 8353,15103,Bunostomum phlebotomum,Africa,Nematoda,Mammalia
 8354,15105,Bursaphelenchus xylophilus,Asia,Nematoda,[]
-8355,15106,Cameronia multiovata,Asia,Nematoda,['Insecta' 'Mammalia']
+8355,15106,Cameronia multiovata,Asia,Nematoda,Insecta
 8356,15107,Capillaria calliopis,Asia,Nematoda,Aves
 8357,15108,Capillaria cincli,Europe,Nematoda,Aves
 8358,15109,Capillaria emberizae,Asia,Nematoda,Aves
@@ -8394,7 +8394,7 @@
 8392,15166,Globocephalus connorfilii,Asia,Nematoda,[]
 8393,15167,Globocephalus longemucronatus,Europe,Nematoda,Mammalia
 8394,15168,Globocephalus samoensis,Europe,Nematoda,Mammalia
-8395,15171,Gnathostoma malaysiae,Pacific Ocean,Nematoda,Teleostei
+8395,15171,Gnathostoma malaysiae,Pacific Ocean,Nematoda,Mammalia
 8396,15172,Gnathostoma nipponicum,Asia,Nematoda,Teleostei
 8397,15173,Goezia oncorhynchi,Asia,Nematoda,Teleostei
 8398,15174,Gongylonema macrogubernaculum,Asia,Nematoda,Mammalia
@@ -8429,7 +8429,7 @@
 8427,15233,Meteterakis amamiensis,Asia,Nematoda,[]
 8428,15235,Meteterakis ishikawanae,Asia,Nematoda,Reptilia
 8429,15237,Mexiconema liobagri,Asia,Nematoda,[]
-8430,15238,Mirzaiella haroldi,Asia,Nematoda,['Insecta' 'Mammalia']
+8430,15238,Mirzaiella haroldi,Asia,Nematoda,Insecta
 8431,15239,Moguranema nipponicum,Asia,Nematoda,Mammalia
 8432,15240,Molineus legerae,Europe,Nematoda,Mammalia
 8433,15241,Molinostrongylus rhinolophi,Europe,Nematoda,Mammalia
@@ -8722,7 +8722,7 @@
 8720,15659,Onchocerca lupi,North America,Nematoda,Mammalia
 8721,15660,Rhabdochona sulaki,Europe,Nematoda,Teleostei
 8722,15661,Simondsia petrowi,Europe,Nematoda,Mammalia
-8723,15662,Syngamus skrjabinomorpha,Europe,Nematoda,['Aves' 'Clitellata']
+8723,15662,Syngamus skrjabinomorpha,Europe,Nematoda,Clitellata
 8724,15672,Synhimantus petrowi,Europe,Nematoda,Mammalia
 8725,15673,Trichocephalus georgicus,Europe,Nematoda,Mammalia
 8726,15675,Ancyracanthus impar,Atlantic Ocean,Nematoda,Teleostei
@@ -9342,7 +9342,7 @@
 9340,16450,Spirura khalili,Asia,Nematoda,Mammalia
 9341,16452,Spirura narayani,Asia,Nematoda,[]
 9342,16453,Stephanofilaria dedoesi,Asia,Nematoda,[]
-9343,16455,Stephanofilaria zaheeri,Asia,Nematoda,['Insecta' 'Mammalia']
+9343,16455,Stephanofilaria zaheeri,Asia,Nematoda,Mammalia
 9344,16456,Stewartia chabaudi,Asia,Nematoda,[]
 9345,16457,Stewartia macintoshi,Asia,Nematoda,[]
 9346,16458,Streptopharagus indicus,Asia,Nematoda,Mammalia
@@ -9643,7 +9643,7 @@
 9641,16899,Litomosa aelleni,Asia,Nematoda,Mammalia
 9642,16901,Litomosa hanaki,Europe,Nematoda,Mammalia
 9643,16902,Microtetrameres oriolus,Europe,Nematoda,Aves
-9644,16903,Rictularia amurensis,Asia,Nematoda,['Insecta' 'Mammalia']
+9644,16903,Rictularia amurensis,Asia,Nematoda,Insecta
 9645,16905,Rictularia bovieri,Asia,Nematoda,Mammalia
 9646,16906,Rictularia nana,Asia,Nematoda,Mammalia
 9647,16907,Rictularia vulpi,Europe,Nematoda,Mammalia
@@ -9792,7 +9792,7 @@
 9790,17130,Gongylonema mexicanum,North America,Nematoda,[]
 9791,17132,Habronema ficheuri,North America,Nematoda,[]
 9792,17134,Hassalstrongylus bocqueti,North America,Nematoda,Mammalia
-9793,17136,Hedruris siredonis,South America,Nematoda,['Amphibia' 'Reptilia']
+9793,17136,Hedruris siredonis,South America,Nematoda,Amphibia
 9794,17138,Heth maicuru,North America,Nematoda,Diplopoda
 9795,17139,Hexametra chamelensis,North America,Nematoda,Reptilia
 9796,17140,Hysterothylacium cenotae,North America,Nematoda,Teleostei
@@ -10131,7 +10131,7 @@
 10129,17758,Cooperia surnabada,North America,Nematoda,Mammalia
 10130,17759,Dipetalonema arbuta,North America,Nematoda,Mammalia
 10131,17761,Formicitylenchus oregonensis,North America,Nematoda,Insecta
-10132,17762,Mermis nigrescens,Africa,Nematoda,Mammalia
+10132,17762,Mermis nigrescens,Africa,Nematoda,Reptilia
 10133,17763,Syphabulea maseri,North America,Nematoda,Mammalia
 10134,17775,Acuaria cordata,Europe,Nematoda,Aves
 10135,17777,Acuaria dicrura,Asia,Nematoda,Aves
@@ -11083,7 +11083,7 @@
 11081,19392,Dolichoenterum longissimum,Atlantic Ocean,Trematoda,Teleostei
 11082,19393,Ectenurus lepidus,Atlantic Ocean,Trematoda,Teleostei
 11083,19394,Enodiotrema megachondrus,Atlantic Ocean,Trematoda,Reptilia
-11084,19395,Gymnophallus fossarum,Europe,Trematoda,Bivalvia
+11084,19395,Gymnophallus fossarum,Europe,Trematoda,Aves
 11085,19396,Haplocladus typicus,Atlantic Ocean,Trematoda,Teleostei
 11086,19397,Haploporus benedenii,Atlantic Ocean,Trematoda,Teleostei
 11087,19398,Helicometra fasciata,Atlantic Ocean,Trematoda,Teleostei
@@ -11160,7 +11160,7 @@
 11158,19486,Cyclocoelum tringae,North America,Trematoda,Aves
 11159,19487,Echinoparyphium aconiatum,Europe,Trematoda,Aves
 11160,19488,Echinoparyphium recurvatum,Europe,Trematoda,Aves
-11161,19489,Echinostoma callawayensis,North America,Trematoda,Mammalia
+11161,19489,Echinostoma callawayensis,North America,Trematoda,Gastropoda
 11162,19490,Leucochloridium actitis,North America,Trematoda,Aves
 11163,19491,Lyperosomum lari,North America,Trematoda,Aves
 11164,19492,Maritrema afanassjewi,North America,Trematoda,[]
@@ -11200,8 +11200,8 @@
 11198,19527,Gorgoderina simplex,North America,Trematoda,[]
 11199,19528,Maritrema patulus,North America,Trematoda,Aves
 11200,19529,Metorchis conjunctus,Europe,Trematoda,Mammalia
-11201,19530,Microphallus nicolli,North America,Trematoda,Aves
-11202,19531,Microphallus pygmaeus,Europe,Trematoda,Gastropoda
+11201,19530,Microphallus nicolli,North America,Trematoda,Malacostraca
+11202,19531,Microphallus pygmaeus,Europe,Trematoda,Aves
 11203,19533,Neoleucochloridium problematicum,North America,Trematoda,[]
 11204,19534,Odhneria odhneri,North America,Trematoda,Aves
 11205,19536,Ornithodiplostomum ptychocheilus,North America,Trematoda,Teleostei
@@ -11329,7 +11329,7 @@
 11327,19720,Mesostephanus cubaensis,North America,Trematoda,Aves
 11328,19722,Mesostephanus fajardensis,South America,Trematoda,Aves
 11329,19723,Microparyphium floridae,North America,Trematoda,Aves
-11330,19724,Neogogatea pandionis,North America,Trematoda,Aves
+11330,19724,Neogogatea pandionis,North America,Trematoda,Teleostei
 11331,19725,Octangium sagitta,Europe,Trematoda,Reptilia
 11332,19726,Pachytrema sanguineum,North America,Trematoda,Aves
 11333,19727,Paracryptogonimus centropomi,South America,Trematoda,Teleostei
@@ -11337,7 +11337,7 @@
 11335,19729,Paramonostomum himantopidis,North America,Trematoda,Aves
 11336,19730,Parastrigea mexicanus,North America,Trematoda,Aves
 11337,19731,Parorchis holotestis,North America,Trematoda,Aves
-11338,19732,Perezitrema bychowskyi,North America,Trematoda,Holostei
+11338,19732,Perezitrema bychowskyi,North America,Trematoda,Teleostei
 11339,19734,Perezitrema viguerasi,North America,Trematoda,[]
 11340,19735,Proctocaecum acuti,North America,Trematoda,Reptilia
 11341,19736,Proctocaecum americanum,North America,Trematoda,Reptilia
@@ -11345,7 +11345,7 @@
 11343,19739,Prohemistomum appendiculatoides,Europe,Trematoda,Aves
 11344,19740,Prosthodiplostomum nanum,South America,Trematoda,[]
 11345,19741,Pseudoneodiplostomum groschafti,North America,Trematoda,Reptilia
-11346,19742,Ribeiroia guadeloupensis,Asia,Trematoda,['Gastropoda' 'Teleostei']
+11346,19742,Ribeiroia guadeloupensis,Asia,Trematoda,Gastropoda
 11347,19743,Ribeiroia ondatrae,North America,Trematoda,Aves
 11348,19744,Saccocoelioides agonostomus,North America,Trematoda,Teleostei
 11349,19746,Schizamphistomum erratum,Europe,Trematoda,Reptilia
@@ -11585,7 +11585,7 @@
 11583,20027,Cercaria nordica,Arctic Ocean,Trematoda,[]
 11584,20029,Cercaria parvicaudata,Europe,Trematoda,Gastropoda
 11585,20031,Crepidostomum metoecus,Europe,Trematoda,Teleostei
-11586,20032,Cryptocotyle concava,Europe,Trematoda,Teleostei
+11586,20032,Cryptocotyle concava,Europe,Trematoda,Aves
 11587,20033,Derogenes crassus,Atlantic Ocean,Trematoda,Teleostei
 11588,20034,Dinosoma tortum,Pacific Ocean,Trematoda,Teleostei
 11589,20035,Diplostomum helveticum,Europe,Trematoda,Teleostei
@@ -11604,7 +11604,7 @@
 11602,20049,Hemiurus levinseni,Pacific Ocean,Trematoda,Teleostei
 11603,20050,Hemiurus raabei,Europe,Trematoda,Teleostei
 11604,20051,Himasthla continua,Europe,Trematoda,Gastropoda
-11605,20052,Himasthla elongata,Europe,Trematoda,Gastropoda
+11605,20052,Himasthla elongata,Europe,Trematoda,Aves
 11606,20054,Himasthla larina,Europe,Trematoda,Aves
 11607,20055,Ichthyocotylurus erraticus,Asia,Trematoda,Teleostei
 11608,20056,Lecithaster gibbosus,Pacific Ocean,Trematoda,Teleostei
@@ -11614,7 +11614,7 @@
 11612,20060,Lepidophyllum steenstrupi,Europe,Trematoda,Teleostei
 11613,20061,Leucasiella arctica,Pacific Ocean,Trematoda,Mammalia
 11614,20062,Levinseniella brachysoma,Europe,Trematoda,Aves
-11615,20063,Maritrema arenaria,Europe,Trematoda,['Gastropoda' 'Maxillopoda']
+11615,20063,Maritrema arenaria,Europe,Trematoda,Gastropoda
 11616,20064,Maritrema linguilla,Atlantic Ocean,Trematoda,Gastropoda
 11617,20065,Maritrema murmanica,Europe,Trematoda,Gastropoda
 11618,20066,Maritrema subdolum,Europe,Trematoda,Aves
@@ -11622,7 +11622,7 @@
 11620,20068,Microphallus claviformes,Europe,Trematoda,Aves
 11621,20069,Microphallus piriformes,Europe,Trematoda,Gastropoda
 11622,20072,Microphallus pseudopygmaeus,Europe,Trematoda,Gastropoda
-11623,20077,Microphallus similis,Europe,Trematoda,Gastropoda
+11623,20077,Microphallus similis,Europe,Trematoda,Aves
 11624,20079,Microphallus triangulatus,Europe,Trematoda,Gastropoda
 11625,20080,Neophasis lageniformis,Atlantic Ocean,Trematoda,Teleostei
 11626,20081,Neophasis oculatus,Pacific Ocean,Trematoda,Teleostei
@@ -11637,7 +11637,7 @@
 11635,20091,Paramonostomum alveatum,Europe,Trematoda,Aves
 11636,20092,Paramonostomum anatis,Europe,Trematoda,Aves
 11637,20093,Paramonostomum chabaudi,Europe,Trematoda,Gastropoda
-11638,20094,Parapronocephalum symmetricum,Europe,Trematoda,Gastropoda
+11638,20094,Parapronocephalum symmetricum,Europe,Trematoda,Aves
 11639,20096,Parvatrema homoeotecnum,Europe,Trematoda,Gastropoda
 11640,20097,Peracreadium idoneum,Europe,Trematoda,Teleostei
 11641,20098,Pholeter gastrophilus,Atlantic Ocean,Trematoda,Mammalia
@@ -11672,7 +11672,7 @@
 11670,20138,Ascocotyle angrense,South America,Trematoda,Aves
 11671,20139,Ascocotyle diminuta,South America,Trematoda,Teleostei
 11672,20141,Athesmia heterolecithoides,South America,Trematoda,Aves
-11673,20143,Austrocreadium papilliferum,South America,Trematoda,['Cephalaspidomorphi' 'Teleostei']
+11673,20143,Austrocreadium papilliferum,South America,Trematoda,Cephalaspidomorphi
 11674,20144,Austrodiplostomum mordax,South America,Trematoda,Teleostei
 11675,20145,Bacciger astyanactis,North America,Trematoda,Teleostei
 11676,20146,Catadiscus freitaslenti,South America,Trematoda,Reptilia
@@ -11680,7 +11680,7 @@
 11678,20154,Catadiscus longicaecalis,South America,Trematoda,Reptilia
 11679,20155,Catadiscus marinholutzi,South America,Trematoda,Reptilia
 11680,20158,Catadiscus pomaceae,South America,Trematoda,Gastropoda
-11681,20160,Catadiscus uruguayensis,South America,Trematoda,Amphibia
+11681,20160,Catadiscus uruguayensis,South America,Trematoda,Gastropoda
 11682,20162,Catatropis chilinae,South America,Trematoda,[]
 11683,20164,Cercaria cystophora,South America,Trematoda,[]
 11684,20166,Cercaria heleobicola,South America,Trematoda,[]
@@ -11751,7 +11751,7 @@
 11749,20263,Pleurolophocercaria VI,South America,Trematoda,[]
 11750,20264,Polylekithum percai,South America,Trematoda,Teleostei
 11751,20265,Posterotestes unelen,South America,Trematoda,Teleostei
-11752,20266,Posthodiplostomum nanum,South America,Trematoda,Teleostei
+11752,20266,Posthodiplostomum nanum,South America,Trematoda,Aves
 11753,20268,Procaudotestis uruguayensis,South America,Trematoda,[]
 11754,20269,Proctocaecum gnerii,South America,Trematoda,Teleostei
 11755,20270,Prosthenhystera obesa,South America,Trematoda,Teleostei
@@ -11836,7 +11836,7 @@
 11834,20380,Notocotylus skrjabini,Europe,Trematoda,Aves
 11835,20381,Opisthioglyphe ranae,Europe,Trematoda,Amphibia
 11836,20382,Orchipedum armenicum,Europe,Trematoda,Aves
-11837,20383,Paralepoderma cloacicola,Europe,Trematoda,Reptilia
+11837,20383,Paralepoderma cloacicola,Europe,Trematoda,Amphibia
 11838,20385,Philophthalmus lucipetus,Europe,Trematoda,Aves
 11839,20386,Plagiorchis maculosus,Europe,Trematoda,Aves
 11840,20387,Posthovitellum ripariae,Europe,Trematoda,Aves
@@ -11887,7 +11887,7 @@
 11885,20443,Apatemon annuligerum,Europe,Trematoda,Teleostei
 11886,20444,Apatemon cobitidis,Europe,Trematoda,Teleostei
 11887,20446,Apertile holocentri,Atlantic Ocean,Trematoda,[]
-11888,20448,Aphalloides coelomicola,Atlantic Ocean,Trematoda,Teleostei
+11888,20448,Aphalloides coelomicola,Atlantic Ocean,Trematoda,Gastropoda
 11889,20449,Aphalloides timmi,Atlantic Ocean,Trematoda,Teleostei
 11890,20450,Aphallus rubalo,Atlantic Ocean,Trematoda,Teleostei
 11891,20451,Aphallus tubarium,Atlantic Ocean,Trematoda,Teleostei
@@ -11954,10 +11954,10 @@
 11952,20557,Bucephalopsis paralichthydis,Atlantic Ocean,Trematoda,Teleostei
 11953,20558,Bucephalopsis scomberomorus,Atlantic Ocean,Trematoda,Teleostei
 11954,20559,Bucephalus baeri,Atlantic Ocean,Trematoda,Teleostei
-11955,20560,Bucephalus confusus,Atlantic Ocean,Trematoda,['Chondrichthyes' 'Teleostei']
+11955,20560,Bucephalus confusus,Atlantic Ocean,Trematoda,Chondrichthyes
 11956,20561,Bucephalus cuculus,North America,Trematoda,Bivalvia
 11957,20562,Bucephalus gorgon,Atlantic Ocean,Trematoda,Teleostei
-11958,20563,Bucephalus haimeanus,Atlantic Ocean,Trematoda,['Bivalvia' 'Teleostei']
+11958,20563,Bucephalus haimeanus,Atlantic Ocean,Trematoda,Bivalvia
 11959,20564,Bucephalus labracis,Atlantic Ocean,Trematoda,Teleostei
 11960,20565,Bucephalus marinus,Atlantic Ocean,Trematoda,Teleostei
 11961,20566,Bucephalus mytili,Atlantic Ocean,Trematoda,Bivalvia
@@ -11975,7 +11975,7 @@
 11973,20581,Cadenatella cadenati,Pacific Ocean,Trematoda,Teleostei
 11974,20582,Cadenatella floridae,Pacific Ocean,Trematoda,Teleostei
 11975,20583,Cadenatella kyphosi,Pacific Ocean,Trematoda,Teleostei
-11976,20584,Cainocreadium dentecis,Atlantic Ocean,Trematoda,['Gastropoda' 'Teleostei']
+11976,20584,Cainocreadium dentecis,Atlantic Ocean,Trematoda,Gastropoda
 11977,20586,Cainocreadium flesi,Europe,Trematoda,Teleostei
 11978,20588,Cainocreadium labracis,Atlantic Ocean,Trematoda,Teleostei
 11979,20591,Cainocreadium lintoni,Atlantic Ocean,Trematoda,Teleostei
@@ -11989,7 +11989,7 @@
 11987,20600,Cardicola laruei,Atlantic Ocean,Trematoda,Teleostei
 11988,20601,Cardiocephalus longicollis,Atlantic Ocean,Trematoda,Teleostei
 11989,20602,Carettacola bipora,Atlantic Ocean,Trematoda,Reptilia
-11990,20603,Carneophallus turgidus,North America,Trematoda,Mammalia
+11990,20603,Carneophallus turgidus,North America,Trematoda,Aves
 11991,20604,Caudotestis nicolli,Atlantic Ocean,Trematoda,Teleostei
 11992,20605,Centroderma stossichianum,Atlantic Ocean,Trematoda,[]
 11993,20607,Cephalolepidapedon saba,Atlantic Ocean,Trematoda,Teleostei
@@ -12178,13 +12178,13 @@
 12176,20876,Gonocerca minuta,Atlantic Ocean,Trematoda,[]
 12177,20882,Gonocerca taeniata,Indian Ocean,Trematoda,Teleostei
 12178,20883,Gonocercella pacifica,Pacific Ocean,Trematoda,Teleostei
-12179,20884,Gymnophallus choledochus,Atlantic Ocean,Trematoda,['Aves' 'Bivalvia']
+12179,20884,Gymnophallus choledochus,Atlantic Ocean,Trematoda,Aves
 12180,20885,Gymnophallus gibberosus,Europe,Trematoda,Bivalvia
 12181,20887,Gymnophallus rostratus,Atlantic Ocean,Trematoda,[]
-12182,20888,Gymnophallus somateriae,Europe,Trematoda,Bivalvia
+12182,20888,Gymnophallus somateriae,Europe,Trematoda,Aves
 12183,20889,Gymnophallus triogl....,Europe,Trematoda,Bivalvia
 12184,20890,Gymnotergestia chaetodipteri,Atlantic Ocean,Trematoda,Teleostei
-12185,20891,Gynaecotyla adunca,North America,Trematoda,Mammalia
+12185,20891,Gynaecotyla adunca,North America,Trematoda,Aves
 12186,20893,Gynaecotyla longiintestinata,Europe,Trematoda,Aves
 12187,20894,Hadwenius elongatus,Atlantic Ocean,Trematoda,Mammalia
 12188,20896,Halvorsenius exilis,Atlantic Ocean,Trematoda,Teleostei
@@ -12223,10 +12223,10 @@
 12221,20968,Himasthla interrupta,Europe,Trematoda,Gastropoda
 12222,20969,Himasthla leptosoma,Europe,Trematoda,Aves
 12223,20970,Himasthla littorinae,Europe,Trematoda,Gastropoda
-12224,20971,Himasthla quissentensis,North America,Trematoda,Gastropoda
+12224,20971,Himasthla quissentensis,North America,Trematoda,Bivalvia
 12225,20973,Himasthla secunda,Europe,Trematoda,Aves
 12226,20975,Hirudinella beebi,Pacific Ocean,Trematoda,Teleostei
-12227,20976,Hirudinella clavata,Atlantic Ocean,Trematoda,Teleostei
+12227,20976,Hirudinella clavata,Atlantic Ocean,Trematoda,Aves
 12228,20977,Hirudinella marina,Pacific Ocean,Trematoda,Teleostei
 12229,20978,Hirudinella phalloides,Atlantic Ocean,Trematoda,Teleostei
 12230,20979,Hirudinella ventricosa,Pacific Ocean,Trematoda,Teleostei
@@ -12262,12 +12262,12 @@
 12260,21035,Hysterolecitha nahaensis,Pacific Ocean,Trematoda,Teleostei
 12261,21036,Hysterolecitha rosea,Pacific Ocean,Trematoda,Teleostei
 12262,21037,Hysterolecitha soganderesi,Atlantic Ocean,Trematoda,Teleostei
-12263,21038,Hysteromorpha triloba,Europe,Trematoda,Aves
+12263,21038,Hysteromorpha triloba,Europe,Trematoda,Teleostei
 12264,21039,Ichthyocotylurus platycephalus,Europe,Trematoda,Teleostei
 12265,21040,Ichthyocotylurus variegatus,Europe,Trematoda,Teleostei
 12266,21042,Ichthyotrema vogelsangi,Atlantic Ocean,Trematoda,[]
 12267,21044,Kenmackenzia gigas,Atlantic Ocean,Trematoda,[]
-12268,21045,Knipowitschiatrema nicolai,Atlantic Ocean,Trematoda,['Aves' 'Teleostei']
+12268,21045,Knipowitschiatrema nicolai,Atlantic Ocean,Trematoda,Aves
 12269,21046,Koellikeria benedenii,Pacific Ocean,Trematoda,Teleostei
 12270,21047,Koellikeria bipartita,Pacific Ocean,Trematoda,Teleostei
 12271,21048,Koellikeria exocoeti,Atlantic Ocean,Trematoda,Teleostei
@@ -12401,7 +12401,7 @@
 12399,21235,Manteriella crassa,Atlantic Ocean,Trematoda,Teleostei
 12400,21239,Maritrema echinocirrata,Europe,Trematoda,Aves
 12401,21240,Maritrema misenensis,Atlantic Ocean,Trematoda,[]
-12402,21241,Maritrema oocysta,Australia,Trematoda,Mammalia
+12402,21241,Maritrema oocysta,Australia,Trematoda,Aves
 12403,21242,Maritrema opisthometra,Europe,Trematoda,Aves
 12404,21245,Maritrema syntomocyclus,Europe,Trematoda,Gastropoda
 12405,21246,Megalophallus reamesi,North America,Trematoda,Aves
@@ -12409,7 +12409,7 @@
 12407,21250,Megenteron crassum,Atlantic Ocean,Trematoda,[]
 12408,21252,Megenteron manteri,Atlantic Ocean,Trematoda,[]
 12409,21253,Meiogymnophallus affinis,Europe,Trematoda,Bivalvia
-12410,21255,Meiogymnophallus fossarum,Atlantic Ocean,Trematoda,Bivalvia
+12410,21255,Meiogymnophallus fossarum,Atlantic Ocean,Trematoda,Aves
 12411,21260,Meiogymnophallus minutus,Europe,Trematoda,Aves
 12412,21261,Meiogymnophallus nereicola,Atlantic Ocean,Trematoda,[]
 12413,21263,Meiogymnophallus rebecqui,Europe,Trematoda,Bivalvia
@@ -12434,18 +12434,18 @@
 12432,21291,Metorchis bilis,Europe,Trematoda,Mammalia
 12433,21292,Microcreadium parvum,North America,Trematoda,Teleostei
 12434,21293,Microphallus abortivus,Europe,Trematoda,Gastropoda
-12435,21294,Microphallus arenaria,Europe,Trematoda,['Gastropoda' 'Maxillopoda']
+12435,21294,Microphallus arenaria,Europe,Trematoda,Maxillopoda
 12436,21296,Microphallus excellens,Europe,Trematoda,Aves
 12437,21297,Microphallus fusiformis,Europe,Trematoda,Aves
 12438,21299,Microphallus hoffmanni,Atlantic Ocean,Trematoda,Aves
 12439,21300,Microphallus opacus,North America,Trematoda,Teleostei
 12440,21301,Microphallus papillorobustus,Europe,Trematoda,Aves
-12441,21302,Microphallus primas,Europe,Trematoda,Malacostraca
+12441,21302,Microphallus primas,Europe,Trematoda,Aves
 12442,21303,Microphallus turgidus,North America,Trematoda,Aves
 12443,21304,Microscaphidium reticulare,Europe,Trematoda,Reptilia
 12444,21310,Monascus netoi,Atlantic Ocean,Trematoda,Teleostei
 12445,21311,Monascus typicus,Atlantic Ocean,Trematoda,Teleostei
-12446,21312,Monilicaecum metacercaria,Pacific Ocean,Trematoda,Teleostei
+12446,21312,Monilicaecum metacercaria,Pacific Ocean,Trematoda,Cephalopoda
 12447,21313,Moniligerum blairi,North America,Trematoda,Mammalia
 12448,21316,Monorchiaponurus hemirhamphi,Atlantic Ocean,Trematoda,[]
 12449,21317,Monorchimacradena acanthuri,Atlantic Ocean,Trematoda,Teleostei
@@ -12503,7 +12503,7 @@
 12501,21386,Nicolla elongata,Atlantic Ocean,Trematoda,Teleostei
 12502,21388,Nicolla extrema,Atlantic Ocean,Trematoda,Teleostei
 12503,21391,Notocotylus atlanticus,Atlantic Ocean,Trematoda,[]
-12504,21392,Notocotylus seineti,Europe,Trematoda,Aves
+12504,21392,Notocotylus seineti,Europe,Trematoda,Gastropoda
 12505,21393,Nudacotyle undicola,North America,Trematoda,Mammalia
 12506,21394,Odhneriella elongata,Atlantic Ocean,Trematoda,Mammalia
 12507,21395,Odhnerium calyptocotyle,Pacific Ocean,Trematoda,Teleostei
@@ -12527,7 +12527,7 @@
 12525,21438,Opecoeloides catarinensis,Atlantic Ocean,Trematoda,Teleostei
 12526,21440,Opecoeloides columbellae,Atlantic Ocean,Trematoda,[]
 12527,21441,Opecoeloides elongatus,Atlantic Ocean,Trematoda,Teleostei
-12528,21442,Opecoeloides feliciae,Atlantic Ocean,Trematoda,['Malacostraca' 'Teleostei']
+12528,21442,Opecoeloides feliciae,Atlantic Ocean,Trematoda,Malacostraca
 12529,21443,Opecoeloides fimbriatus,Atlantic Ocean,Trematoda,Teleostei
 12530,21445,Opecoeloides pedicathedrae,Atlantic Ocean,Trematoda,[]
 12531,21446,Opecoeloides polynemi,Atlantic Ocean,Trematoda,Teleostei
@@ -12571,7 +12571,7 @@
 12569,21514,Paraprosorhynchus jupe,Atlantic Ocean,Trematoda,[]
 12570,21515,Parasaccocoelium mugili,Asia,Trematoda,[]
 12571,21516,Parascocotyle longa,Atlantic Ocean,Trematoda,Teleostei
-12572,21517,Parascocotyle sinoecum,Atlantic Ocean,Trematoda,Teleostei
+12572,21517,Parascocotyle sinoecum,Atlantic Ocean,Trematoda,Aves
 12573,21519,Paratimonia magnipharynx,Atlantic Ocean,Trematoda,[]
 12574,21520,Parvatrema duboisi,Europe,Trematoda,Aves
 12575,21523,Pedunculacetabulum ghardaguensis,Atlantic Ocean,Trematoda,[]
@@ -12584,7 +12584,7 @@
 12582,21532,Phagicola longa,North America,Trematoda,Aves
 12583,21533,Phagicola macrostoma,North America,Trematoda,Aves
 12584,21534,Phagicola septentrionalis,North America,Trematoda,Mammalia
-12585,21535,Phagicola sinoecum,Atlantic Ocean,Trematoda,Teleostei
+12585,21535,Phagicola sinoecum,Atlantic Ocean,Trematoda,Mammalia
 12586,21536,Phocitremoides butionis,North America,Trematoda,Aves
 12587,21537,Phyllodistomum acceptum,Atlantic Ocean,Trematoda,Teleostei
 12588,21538,Phyllodistomum crenilabri,Atlantic Ocean,Trematoda,Teleostei
@@ -12769,7 +12769,7 @@
 12767,21776,Skrjabinozoum delamurei,Atlantic Ocean,Trematoda,[]
 12768,21778,Skrjabinozoum exocoetidi,Indian Ocean,Trematoda,[]
 12769,21781,Spelotrema magnipapillatum,Europe,Trematoda,[]
-12770,21782,Spelotrema papillorobusta,North America,Trematoda,['Aves' 'Malacostraca']
+12770,21782,Spelotrema papillorobusta,North America,Trematoda,Aves
 12771,21783,Sphaerostomum bramae,Europe,Trematoda,Teleostei
 12772,21784,Sphaerostomum globiporum,Europe,Trematoda,Teleostei
 12773,21785,Sphaerostomum maius,Europe,Trematoda,Teleostei
@@ -12886,7 +12886,7 @@
 12884,21924,Baiohelmins elegans,Australia,Trematoda,Mammalia
 12885,21926,Bancroftrema neoceratodi,Australia,Trematoda,[]
 12886,21927,Brachylaima brindabellensis,Australia,Trematoda,Mammalia
-12887,21928,Brachylaima cribbi,Australia,Trematoda,['Aves' 'Gastropoda']
+12887,21928,Brachylaima cribbi,Australia,Trematoda,Aves
 12888,21929,Brachylaima dasyuri,Australia,Trematoda,Mammalia
 12889,21930,Brachylaima delecta,Australia,Trematoda,Mammalia
 12890,21931,Brachylaima pulchellum,Australia,Trematoda,Aves
@@ -12894,7 +12894,7 @@
 12892,21933,Brachylaima simile,Australia,Trematoda,Mammalia
 12893,21935,Brachylaima walterae,Australia,Trematoda,Mammalia
 12894,21936,Brachylecithum hydromyos,Australia,Trematoda,Mammalia
-12895,21937,Brachylecithum insulare,Australia,Trematoda,Mammalia
+12895,21937,Brachylecithum insulare,Australia,Trematoda,Reptilia
 12896,21938,Buckarootrema goodmani,Australia,Trematoda,Reptilia
 12897,21939,Burnellus trichofurcatus,Australia,Trematoda,Teleostei
 12898,21942,Calicophoron calicophorum,Africa,Trematoda,Mammalia
@@ -12924,7 +12924,7 @@
 12922,21977,Diplodiscus megalochrus,Australia,Trematoda,Amphibia
 12923,21978,Diplodiscus microchrus,Australia,Trematoda,Amphibia
 12924,21979,Dolichopera macalpini,Australia,Trematoda,Reptilia
-12925,21980,Dolichoperoides macalpini,Australia,Trematoda,['Amphibia' 'Reptilia']
+12925,21980,Dolichoperoides macalpini,Australia,Trematoda,Reptilia
 12926,21981,Dolichosaccus anartius,Australia,Trematoda,Amphibia
 12927,21983,Dolichosaccus diamesus,Australia,Trematoda,[]
 12928,21984,Dolichosaccus helocirrus,South America,Trematoda,[]
@@ -12940,7 +12940,7 @@
 12938,21998,Echinoparyphium oxyurum,Australia,Trematoda,[]
 12939,21999,Elseyatrema microacetabulare,Australia,Trematoda,Reptilia
 12940,22000,Elytrophallus carettae,Atlantic Ocean,Trematoda,Reptilia
-12941,22001,Fibricola intermedius,Australia,Trematoda,Mammalia
+12941,22001,Fibricola intermedius,Australia,Trematoda,Amphibia
 12942,22003,Fibricola minor,Australia,Trematoda,Mammalia
 12943,22004,Galactosomum angelae,Australia,Trematoda,Mammalia
 12944,22005,Gemellicotyle wallabicola,Australia,Trematoda,Mammalia
@@ -12951,12 +12951,12 @@
 12949,22011,Hapalotrema mehrai,Europe,Trematoda,Reptilia
 12950,22012,Hapalotrema postorchis,Europe,Trematoda,Reptilia
 12951,22013,Haplorchis pumilio,Asia,Trematoda,Teleostei
-12952,22014,Haplorchis yokogawai,Asia,Trematoda,Mammalia
+12952,22014,Haplorchis yokogawai,Asia,Trematoda,Teleostei
 12953,22015,Harmostomum dasyuri,Australia,Trematoda,Mammalia
 12954,22017,Harmostomum pulchellum,Australia,Trematoda,[]
 12955,22019,Harmostomum simile,Australia,Trematoda,[]
 12956,22020,Harmotrema laticaudae,Australia,Trematoda,Reptilia
-12957,22021,Heterophyes nocens,Asia,Trematoda,Teleostei
+12957,22021,Heterophyes nocens,Asia,Trematoda,Mammalia
 12958,22023,Hydrophitrema giganticum,Australia,Trematoda,Reptilia
 12959,22024,Hyptiasmus magnus,Australia,Trematoda,[]
 12960,22025,Isoparorchis hypselobagri,Asia,Trematoda,Teleostei
@@ -13030,7 +13030,7 @@
 13028,22120,Renivermis crocodyli,Asia,Trematoda,Reptilia
 13029,22121,Rhyncostophallus insularegii,Australia,Trematoda,Aves
 13030,22122,Scaphanocephalus autralis,Australia,Trematoda,Aves
-13031,22123,Sigmapera cincta,Australia,Trematoda,['Amphibia' 'Reptilia']
+13031,22123,Sigmapera cincta,Australia,Trematoda,Reptilia
 13032,22125,Solenorchis travassosi,Asia,Trematoda,Mammalia
 13033,22127,Stegodexamene callista,Australia,Trematoda,Teleostei
 13034,22130,Stegodexamene watsoni,Australia,Trematoda,[]
@@ -13088,10 +13088,10 @@
 13086,22197,Cercaria asiri,Asia,Trematoda,Gastropoda
 13087,22198,Cercaria emerati,Asia,Trematoda,[]
 13088,22199,Philophthalmus gralli,Asia,Trematoda,Aves
-13089,22200,Brachylaima ruminae,Europe,Trematoda,['Gastropoda' 'Mammalia']
+13089,22200,Brachylaima ruminae,Europe,Trematoda,Gastropoda
 13090,22203,Brachylaima simoni,Europe,Trematoda,Mammalia
 13091,22204,Corrigia vitta,Europe,Trematoda,Mammalia
-13092,22205,Dollfusinus frontalis,Europe,Trematoda,Mammalia
+13092,22205,Dollfusinus frontalis,Europe,Trematoda,Gastropoda
 13093,22208,Paradistomum mutabile,Europe,Trematoda,[]
 13094,22209,Postorchigenes gymnesicus,Europe,Trematoda,Mammalia
 13095,22210,Scaphiostomum palaearcticum,Europe,Trematoda,Mammalia
@@ -13110,7 +13110,7 @@
 13108,22223,Clinostomum giganticum,Asia,Trematoda,Teleostei
 13109,22224,Cotylogonoporum orfeum,Asia,Trematoda,Teleostei
 13110,22225,Crowcrocaecum channai,Asia,Trematoda,Teleostei
-13111,22226,Echinoparyphium paraulum,South America,Trematoda,['Aves' 'Mammalia']
+13111,22226,Echinoparyphium paraulum,South America,Trematoda,Aves
 13112,22227,Euclinostomum heterostomum,Asia,Trematoda,Teleostei
 13113,22228,Euclinostomum multicaecum,Asia,Trematoda,Teleostei
 13114,22229,Eucreadium daccai,Asia,Trematoda,[]
@@ -13125,7 +13125,7 @@
 13123,22239,Genarchopsis ozaki,Asia,Trematoda,[]
 13124,22240,Genarchopsis wallagoni,Asia,Trematoda,Teleostei
 13125,22241,Gigantocotyle explanatum,Asia,Trematoda,Mammalia
-13126,22242,Haplorchis taichui,Asia,Trematoda,['Mammalia' 'Teleostei']
+13126,22242,Haplorchis taichui,Asia,Trematoda,Teleostei
 13127,22243,Hypoderaeum conoideum,North America,Trematoda,Aves
 13128,22244,Lecithocladium daccai,Asia,Trematoda,Teleostei
 13129,22245,Masenia dayali,Asia,Trematoda,Teleostei
@@ -13142,7 +13142,7 @@
 13140,22256,Prosorhynchoides clupisomius,Asia,Trematoda,Teleostei
 13141,22257,Rhynchocreadium aculeatum,Asia,Trematoda,Teleostei
 13142,22258,Rhynchopharynx paradoxa,Asia,Trematoda,Teleostei
-13143,22259,Trichobilharzia parocellata,Asia,Trematoda,['Gastropoda' 'Mammalia']
+13143,22259,Trichobilharzia parocellata,Asia,Trematoda,Mammalia
 13144,22262,Acanthocolpus chorinemusi,Indian Ocean,Trematoda,[]
 13145,22263,Acanthocolpus equulai,Indian Ocean,Trematoda,[]
 13146,22264,Acanthocolpus luhei,Pacific Ocean,Trematoda,Teleostei
@@ -13199,7 +13199,7 @@
 13197,22333,Elongoparorchis pneumatis,Pacific Ocean,Trematoda,Teleostei
 13198,22334,Elytrophalloides parukhini,Indian Ocean,Trematoda,[]
 13199,22336,Engraulitrema hamiltoni,Indian Ocean,Trematoda,[]
-13200,22338,Galactosomum ussuriense,Asia,Trematoda,['Aves' 'Teleostei']
+13200,22338,Galactosomum ussuriense,Asia,Trematoda,Aves
 13201,22342,Gonapodasmius reticulum,Indian Ocean,Trematoda,[]
 13202,22344,Haplorchoides mehrai,Asia,Trematoda,Teleostei
 13203,22346,Helicometra gibsoni,Indian Ocean,Trematoda,[]
@@ -13379,11 +13379,11 @@
 13377,22589,Zonorchis microrchis,Africa,Trematoda,[]
 13378,22591,Pachypsolus brachus,Europe,Trematoda,Reptilia
 13379,22593,Sphincterodiplostomum borjanensis,South America,Trematoda,Teleostei
-13380,22594,Sphincterodiplostomum musculosum,South America,Trematoda,['Aves' 'Teleostei']
+13380,22594,Sphincterodiplostomum musculosum,South America,Trematoda,Teleostei
 13381,22596,Yungasicola travassosi,South America,Trematoda,[]
 13382,22599,Basantisia sabahensis,Asia,Trematoda,Aves
 13383,22600,Brachydistomum api,Asia,Trematoda,Aves
-13384,22601,Platynosomum fastosum,Pacific Ocean,Trematoda,Reptilia
+13384,22601,Platynosomum fastosum,Pacific Ocean,Trematoda,Mammalia
 13385,22603,Transversohelmins borneoensis,Pacific Ocean,Trematoda,[]
 13386,22604,Calicophoron microbothrium,Africa,Trematoda,Mammalia
 13387,22605,Calicophoron raja,Africa,Trematoda,Mammalia
@@ -13449,7 +13449,7 @@
 13447,22695,Cladocystis intestinalis,South America,Trematoda,Teleostei
 13448,22696,Cladocystis trifolium,North America,Trematoda,Aves
 13449,22697,Cladorchis asper,South America,Trematoda,Mammalia
-13450,22704,Clinostomum detruncatum,South America,Trematoda,Teleostei
+13450,22704,Clinostomum detruncatum,South America,Trematoda,Aves
 13451,22706,Cloacitrema oswaldoi,North America,Trematoda,Aves
 13452,22707,Cloeophora micata,Europe,Trematoda,Aves
 13453,22708,Colocladorchis ventrastomis,South America,Trematoda,Teleostei
@@ -13496,7 +13496,7 @@
 13494,22766,Echinostoma microrchis,South America,Trematoda,Aves
 13495,22768,Echinostoma necopinum,South America,Trematoda,Aves
 13496,22770,Echinostoma operosum,North America,Trematoda,Aves
-13497,22771,Echinostoma paraensei,South America,Trematoda,['Gastropoda' 'Mammalia']
+13497,22771,Echinostoma paraensei,South America,Trematoda,Mammalia
 13498,22773,Echinostoma transfretanum,South America,Trematoda,Aves
 13499,22775,Euparadistomum paraense,South America,Trematoda,[]
 13500,22776,Eurytrema coelomaticum,Asia,Trematoda,Mammalia
@@ -13728,9 +13728,9 @@
 13726,23111,Acanthatrium eptesici,North America,Trematoda,Mammalia
 13727,23112,Acanthatrium nycteridis,North America,Trematoda,Mammalia
 13728,23113,Alaria taxideae,North America,Trematoda,Mammalia
-13729,23114,Ascorhytis charadriformis,Pacific Ocean,Trematoda,Aves
+13729,23114,Ascorhytis charadriformis,Pacific Ocean,Trematoda,Malacostraca
 13730,23115,Brachylecithum mosquense,Europe,Trematoda,Aves
-13731,23116,Bunodera mediovitellata,North America,Trematoda,['Insecta' 'Teleostei']
+13731,23116,Bunodera mediovitellata,North America,Trematoda,Insecta
 13732,23117,Crepidostomum auriculatum,North America,Trematoda,Chondrostei
 13733,23118,Echinoparyphium contiguum,North America,Trematoda,Mammalia
 13734,23119,Glypthelmins californiensis,North America,Trematoda,Amphibia
@@ -13751,9 +13751,9 @@
 13749,23136,Prosthodendrium silvai,North America,Trematoda,Mammalia
 13750,23137,Tamerlania zarudnyi,Europe,Trematoda,Aves
 13751,23138,Trichobilharzia physellae,North America,Trematoda,Aves
-13752,23139,Trichobilharzia stagnicolae,North America,Trematoda,['Aves' 'Gastropoda']
+13752,23139,Trichobilharzia stagnicolae,North America,Trematoda,Aves
 13753,23140,Urotocus rossitensis,Pacific Ocean,Trematoda,Aves
-13754,23141,Apharyngostrigea cornu,Europe,Trematoda,Aves
+13754,23141,Apharyngostrigea cornu,Europe,Trematoda,Teleostei
 13755,23142,Aporchis rugosus,Europe,Trematoda,Aves
 13756,23143,Brachydistomum ventricosum,Asia,Trematoda,Aves
 13757,23144,Brachylaima aequans,Europe,Trematoda,Mammalia
@@ -13803,7 +13803,7 @@
 13801,23202,Ignavia ardeae,Europe,Trematoda,Aves
 13802,23203,Isthmiophora melis,Europe,Trematoda,Mammalia
 13803,23204,Lecithodendrium linstowi,Europe,Trematoda,Mammalia
-13804,23205,Leptophallus nigrovenosus,Europe,Trematoda,Reptilia
+13804,23205,Leptophallus nigrovenosus,Europe,Trematoda,Amphibia
 13805,23206,Levinseniella propinqua,Europe,Trematoda,Aves
 13806,23208,Macyella vassilevi,Europe,Trematoda,Mammalia
 13807,23209,Matovius rhinolophi,Europe,Trematoda,Mammalia
@@ -13837,7 +13837,7 @@
 13835,23239,Plagiorchis laricola,Europe,Trematoda,Aves
 13836,23240,Plagiorchis molini,Europe,Trematoda,Reptilia
 13837,23241,Plagiorchis muris,Asia,Trematoda,Mammalia
-13838,23242,Plagiorchis mutationis,Europe,Trematoda,['Aves' 'Reptilia']
+13838,23242,Plagiorchis mutationis,Europe,Trematoda,Aves
 13839,23243,Plagiorchis neomidis,Europe,Trematoda,Gastropoda
 13840,23244,Platynosomum soricis,Europe,Trematoda,Mammalia
 13841,23245,Pleurogenes claviger,Europe,Trematoda,Amphibia
@@ -13860,7 +13860,7 @@
 13858,23262,Strigea falconis,Europe,Trematoda,Aves
 13859,23263,Strigea strigis,Europe,Trematoda,Aves
 13860,23265,Telorchis stossichi,Europe,Trematoda,Reptilia
-13861,23266,Trichobilharzia ocellata,North America,Trematoda,Gastropoda
+13861,23266,Trichobilharzia ocellata,North America,Trematoda,Aves
 13862,23267,Troglotrema srebarni,North America,Trematoda,Mammalia
 13863,23268,Tylodelphys rhachiaea,Europe,Trematoda,[]
 13864,23269,Typhlocoelum cucumerinum,Europe,Trematoda,Aves
@@ -13891,14 +13891,14 @@
 13889,23299,Pleurogenes intermedius,Europe,Trematoda,Amphibia
 13890,23300,Prosthodendrium chilostomum,Europe,Trematoda,Mammalia
 13891,23301,Prosthodendrium longiforme,Europe,Trematoda,Mammalia
-13892,23302,Rossicotrema donicum,Asia,Trematoda,Aves
+13892,23302,Rossicotrema donicum,Asia,Trematoda,Teleostei
 13893,23304,Ascocotyle sexidigita,North America,Trematoda,[]
 13894,23305,Austrobilharzia penneri,South America,Trematoda,Aves
 13895,23307,Catatropis johnstoni,North America,Trematoda,Mammalia
 13896,23309,Cercaria batillariae,Pacific Ocean,Trematoda,[]
 13897,23310,Cloacitrema michiganensis,North America,Trematoda,Aves
 13898,23311,Dendritobilharzia pulverulenta,North America,Trematoda,Aves
-13899,23313,Euhaplorchis californiensis,North America,Trematoda,Aves
+13899,23313,Euhaplorchis californiensis,North America,Trematoda,Teleostei
 13900,23315,Gigantobilharzia elongata,North America,Trematoda,[]
 13901,23316,Gigantobilharziella gyrauli,North America,Trematoda,[]
 13902,23317,Glypthelmins shastai,North America,Trematoda,[]
@@ -13907,7 +13907,7 @@
 13905,23321,Langeronia brenesi,North America,Trematoda,[]
 13906,23324,Langeronia burseyi,North America,Trematoda,[]
 13907,23325,Levinseniella gymnopocha,North America,Trematoda,Aves
-13908,23326,Maritrema laricola,Pacific Ocean,Trematoda,['Gastropoda' 'Malacostraca']
+13908,23326,Maritrema laricola,Pacific Ocean,Trematoda,Gastropoda
 13909,23327,Paralechriorchis syntomentera,North America,Trematoda,Reptilia
 13910,23328,Parvatrema borealis,North America,Trematoda,Bivalvia
 13911,23330,Parvatrema obscurus,North America,Trematoda,Aves
@@ -13964,7 +13964,7 @@
 13962,23398,Gorgoderina intermedia,North America,Trematoda,[]
 13963,23399,Gyrosoma marilae,North America,Trematoda,Aves
 13964,23400,Haematoloechus medioplexus,North America,Trematoda,[]
-13965,23401,Haematoloechus varioplexus,North America,Trematoda,['Amphibia' 'Reptilia']
+13965,23401,Haematoloechus varioplexus,North America,Trematoda,Amphibia
 13966,23402,Halipegus occidualis,North America,Trematoda,Insecta
 13967,23403,Homalometron pallidum,North America,Trematoda,Teleostei
 13968,23404,Lasiotocus elongatus,North America,Trematoda,Teleostei
@@ -14158,7 +14158,7 @@
 14156,23670,Ascocotyle tenuicollis,North America,Trematoda,Teleostei
 14157,23672,Ascocotyle mollienisicola,North America,Trematoda,Mammalia
 14158,23673,Ascocotyle nana,North America,Trematoda,Aves
-14159,23674,Athesmia foxi,South America,Trematoda,['Aves' 'Mammalia']
+14159,23674,Athesmia foxi,South America,Trematoda,Aves
 14160,23676,Atrophecaecum astorquii,North America,Trematoda,Teleostei
 14161,23678,Bakkeius moragai,North America,Trematoda,[]
 14162,23683,Brenesia chabaudi,North America,Trematoda,[]
@@ -14173,7 +14173,7 @@
 14171,23698,Czosnowia noctilionis,South America,Trematoda,[]
 14172,23699,Eumegacetes macroorchis,North America,Trematoda,Aves
 14173,23701,Eurytrema allentoshi,South America,Trematoda,Mammalia
-14174,23702,Genarchella astyanactis,North America,Trematoda,Teleostei
+14174,23702,Genarchella astyanactis,North America,Trematoda,Maxillopoda
 14175,23704,Glypthelmins facioi,North America,Trematoda,Amphibia
 14176,23705,Glypthelmins intermedia,South America,Trematoda,[]
 14177,23706,Gorgoderina megalorchis,South America,Trematoda,[]
@@ -14189,7 +14189,7 @@
 14187,23720,Limatulum istmicus,North America,Trematoda,[]
 14188,23722,Loxogenes macrocirra,South America,Trematoda,[]
 14189,23724,Lubens centroamericanum,North America,Trematoda,[]
-14190,23725,Lyperosomum sinuosum,North America,Trematoda,['Aves' 'Mammalia']
+14190,23725,Lyperosomum sinuosum,North America,Trematoda,Aves
 14191,23726,Maritrema prolixum,South America,Trematoda,[]
 14192,23727,Mesaulus grandis,North America,Trematoda,Aves
 14193,23728,Metamaritrema prolixum,South America,Trematoda,Mammalia
@@ -14360,7 +14360,7 @@
 14358,24011,Coitocaecum plagiorchis,Asia,Trematoda,Teleostei
 14359,24012,Conodiplostomum asymmetricum,Asia,Trematoda,Mammalia
 14360,24014,Corrigia viktori,Asia,Trematoda,[]
-14361,24015,Cotylurus japonicus,Europe,Trematoda,['Aves' 'Mammalia']
+14361,24015,Cotylurus japonicus,Europe,Trematoda,Aves
 14362,24016,Crassicutis karwarensis,Pacific Ocean,Trematoda,Teleostei
 14363,24017,Cryptotropa kuretanii,Asia,Trematoda,Reptilia
 14364,24018,Cyathocotyle bambusicola,Asia,Trematoda,[]
@@ -14374,7 +14374,7 @@
 14372,24029,Diaschistorchis lateralis,Asia,Trematoda,[]
 14373,24031,Diaschistorchis takahashii,Asia,Trematoda,[]
 14374,24033,Dicrocoelioides petiolatum,Asia,Trematoda,[]
-14375,24034,Dicrocoelium chinensis,Asia,Trematoda,['Gastropoda' 'Mammalia']
+14375,24034,Dicrocoelium chinensis,Asia,Trematoda,Gastropoda
 14376,24058,Dicrocoelium lanceolatum,Asia,Trematoda,Mammalia
 14377,24059,Didymozoon priacanthi,Indian Ocean,Trematoda,Teleostei
 14378,24060,Dietziella fusiforme,Asia,Trematoda,[]
@@ -14543,7 +14543,7 @@
 14541,24313,Mesotretes hangzhouensis,Asia,Trematoda,Mammalia
 14542,24315,Mesotretes orientalis,Asia,Trematoda,Mammalia
 14543,24316,Metagonimus minutis,Africa,Trematoda,Mammalia
-14544,24317,Metaplagiorchis molini,Europe,Trematoda,['Reptilia' 'Teleostei']
+14544,24317,Metaplagiorchis molini,Europe,Trematoda,Reptilia
 14545,24318,Metorchis elongata,Asia,Trematoda,Mammalia
 14546,24320,Metorchis grusi,Asia,Trematoda,[]
 14547,24322,Metorchis orientalis,Asia,Trematoda,Aves
@@ -14758,7 +14758,7 @@
 14756,24651,Trichobilharzia dayushuensis,Africa,Trematoda,Mammalia
 14757,24652,Trichobilharzia gigantica,Africa,Trematoda,Mammalia
 14758,24653,Trichobilharzia guandongensis,Africa,Trematoda,Mammalia
-14759,24654,Trichobilharzia jianensis,Asia,Trematoda,['Aves' 'Mammalia']
+14759,24654,Trichobilharzia jianensis,Asia,Trematoda,Mammalia
 14760,24655,Trichobilharzia paoi,Asia,Trematoda,Mammalia
 14761,24657,Trichobilharzia pingnana,Africa,Trematoda,Mammalia
 14762,24658,Trichobilharzia zhongshani,Africa,Trematoda,Mammalia
@@ -14884,7 +14884,7 @@
 14882,24876,Lintonium laymani,Pacific Ocean,Trematoda,[]
 14883,24877,Lobatocreadium ryukyuense,Pacific Ocean,Trematoda,[]
 14884,24878,Lobatocreadium vitellosum,Pacific Ocean,Trematoda,[]
-14885,24879,Lobatostoma manteri,Indian Ocean,Trematoda,Teleostei
+14885,24879,Lobatostoma manteri,Indian Ocean,Trematoda,Gastropoda
 14886,24881,Machidatrema akeh,Pacific Ocean,Trematoda,[]
 14887,24882,Machidatrema chilostoma,Indian Ocean,Trematoda,Teleostei
 14888,24883,Machidatrema kyphosi,Indian Ocean,Trematoda,Teleostei
@@ -14979,7 +14979,7 @@
 14977,25019,Didymocystoides bifasciatus,Pacific Ocean,Trematoda,Teleostei
 14978,25020,Didymocystoides exiguus,Indian Ocean,Trematoda,Teleostei
 14979,25021,Didymocystoides pinnicola,Atlantic Ocean,Trematoda,[]
-14980,25022,Didymosulcus orbitalis,Pacific Ocean,Trematoda,Chondrichthyes
+14980,25022,Didymosulcus orbitalis,Pacific Ocean,Trematoda,Teleostei
 14981,25024,Diplobulbus minutus,Pacific Ocean,Trematoda,[]
 14982,25028,Genolinea kyphosi,Indian Ocean,Trematoda,Teleostei
 14983,25030,Gonapodasmius haemuli,Indian Ocean,Trematoda,Teleostei
@@ -15124,16 +15124,16 @@
 15122,25251,Cotylurus platycephalus,Europe,Trematoda,Teleostei
 15123,25252,Cotylurus strigeoides,North America,Trematoda,Aves
 15124,25255,Cyathocotyle opaca,Europe,Trematoda,[]
-15125,25256,Cyclocoelum microstomum,Europe,Trematoda,['Aves' 'Gastropoda']
+15125,25256,Cyclocoelum microstomum,Europe,Trematoda,Gastropoda
 15126,25259,Diplostomulum clavatum,Europe,Trematoda,Teleostei
 15127,25260,Diplostomum gavium,Europe,Trematoda,Aves
 15128,25261,Diplostomum indistinctum,Asia,Trematoda,Teleostei
-15129,25262,Diplostomum paracaudum,Europe,Trematoda,['Gastropoda' 'Teleostei']
+15129,25262,Diplostomum paracaudum,Europe,Trematoda,Gastropoda
 15130,25263,Diplostomum parviventosum,Europe,Trematoda,Teleostei
 15131,25264,Diplostomum puntingi,Europe,Trematoda,Aves
 15132,25265,Diplostomum sudarikovi,Europe,Trematoda,Aves
 15133,25266,Distomum lanceolatum,Europe,Trematoda,Mammalia
-15134,25267,Echinochasmus bagulai,Asia,Trematoda,Teleostei
+15134,25267,Echinochasmus bagulai,Asia,Trematoda,Aves
 15135,25268,Echinochasmus colymbi,Europe,Trematoda,Aves
 15136,25269,Echinochasmus euryporus,Europe,Trematoda,Aves
 15137,25270,Echinochasmus bursicola,Europe,Trematoda,Aves
@@ -15207,7 +15207,7 @@
 15205,25366,Tetracladium sternae,Europe,Trematoda,Aves
 15206,25367,Tetracotyle natricis,Europe,Trematoda,Reptilia
 15207,25368,Trichobilharzia filiformis,Europe,Trematoda,Aves
-15208,25369,Trichobilharzia franki,Europe,Trematoda,Gastropoda
+15208,25369,Trichobilharzia franki,Europe,Trematoda,Mammalia
 15209,25370,Trichobilharzia regenti,Europe,Trematoda,Gastropoda
 15210,25371,Troglotrema acutum,Europe,Trematoda,Mammalia
 15211,25372,Tylodelphys excavata,Europe,Trematoda,Aves
@@ -15545,7 +15545,7 @@
 15543,25808,Eumegacetes hirundus,Asia,Trematoda,Aves
 15544,25815,Glossidium pedatum,Africa,Trematoda,Teleostei
 15545,25816,Haploporus lossii,Africa,Trematoda,[]
-15546,25817,Haplorchis pleurolophocerca,North America,Trematoda,['Mammalia' 'Teleostei']
+15546,25817,Haplorchis pleurolophocerca,North America,Trematoda,Mammalia
 15547,25820,Heterophyes pallidus,Africa,Trematoda,[]
 15548,25821,Lasiotocus niloticus,Africa,Trematoda,Teleostei
 15549,25822,Lecithobotrys helmymohamedi,Africa,Trematoda,[]
@@ -15563,7 +15563,7 @@
 15561,25835,Proctocaecum knobus,Africa,Trematoda,Teleostei
 15562,25836,Proctocaecum niloticum,Africa,Trematoda,Teleostei
 15563,25837,Proctocaecum vicinum,Africa,Trematoda,[]
-15564,25838,Prohemistomum vivax,North America,Trematoda,Mammalia
+15564,25838,Prohemistomum vivax,North America,Trematoda,Teleostei
 15565,25839,Prosthodendrium glandulosum,Asia,Trematoda,Mammalia
 15566,25841,Pycnoporus heteroporus,Europe,Trematoda,Mammalia
 15567,25842,Pycnoporus mansouri,Europe,Trematoda,[]
@@ -15581,7 +15581,7 @@
 15579,25855,Xiphidiocercaria virgulate,Africa,Trematoda,[]
 15580,25856,Cotylurus variegatus,Europe,Trematoda,Teleostei
 15581,25857,Diplostomum gasterostei,Europe,Trematoda,Teleostei
-15582,25858,Diplostomum phoxini,Europe,Trematoda,Teleostei
+15582,25858,Diplostomum phoxini,Europe,Trematoda,Gastropoda
 15583,25859,Diplostomum pseudobaeri,Europe,Trematoda,Teleostei
 15584,25860,Tetracotyle percae-fluviatilis,Europe,Trematoda,Teleostei
 15585,25861,Tetracotyle variegatus,Europe,Trematoda,Teleostei
@@ -15656,8 +15656,8 @@
 15654,26033,Cyclocoelum turusigi,Europe,Trematoda,Aves
 15655,26041,Diplostomum vanelli,Europe,Trematoda,Aves
 15656,26042,Echinochasmus gorsakii,Asia,Trematoda,Aves
-15657,26044,Echinochasmus milvi,Asia,Trematoda,['Aves' 'Teleostei']
-15658,26047,Echinochasmus tobi,Asia,Trematoda,['Aves' 'Teleostei']
+15657,26044,Echinochasmus milvi,Asia,Trematoda,Teleostei
+15658,26047,Echinochasmus tobi,Asia,Trematoda,Aves
 15659,26049,Echinoparyphium hirundonis,Asia,Trematoda,[]
 15660,26050,Echinoparyphium japonicum,Africa,Trematoda,Mammalia
 15661,26052,Echinoparyphium phalacrocoracis,Asia,Trematoda,Aves
@@ -15694,7 +15694,7 @@
 15692,26119,Himasthla kusasigi,Europe,Trematoda,Aves
 15693,26120,Himasthla megacotylea,Europe,Trematoda,Aves
 15694,26121,Holostephanus metorchis,Asia,Trematoda,Aves
-15695,26122,Holostephanus nipponicus,Asia,Trematoda,['Aves' 'Teleostei']
+15695,26122,Holostephanus nipponicus,Asia,Trematoda,Teleostei
 15696,26123,Hyptiasmus arcuatus,North America,Trematoda,Aves
 15697,26124,Isthmiophora hortensis,North America,Trematoda,Mammalia
 15698,26125,Lasiotocus chichibu,Pacific Ocean,Trematoda,[]
@@ -15866,11 +15866,11 @@
 15864,26349,Ascocotyle mcintoshi,North America,Trematoda,Teleostei
 15865,26350,Ascocotyle megalocephala,Europe,Trematoda,Aves
 15866,26351,Ascocotyle nunezae,North America,Trematoda,Aves
-15867,26352,Ascocotyle pachycystis,North America,Trematoda,Teleostei
-15868,26354,Ascocotyle sp.,North America,Trematoda,['Aves' 'Teleostei']
+15867,26352,Ascocotyle pachycystis,North America,Trematoda,Aves
+15868,26354,Ascocotyle sp.,North America,Trematoda,Teleostei
 15869,26355,Ascocotyle macrostoma,North America,Trematoda,Aves
 15870,26357,Auritelorchis harwoodi,North America,Trematoda,[]
-15871,26358,Bolbophorus damnificus,North America,Trematoda,Aves
+15871,26358,Bolbophorus damnificus,North America,Trematoda,Gastropoda
 15872,26360,Brachylaima didelphus,North America,Trematoda,Mammalia
 15873,26361,Brachylaima mcintoshi,North America,Trematoda,Aves
 15874,26363,Brachylecithum americanum,North America,Trematoda,Aves
@@ -15879,7 +15879,7 @@
 15877,26367,Cathaemasia reticulata,North America,Trematoda,[]
 15878,26368,Cephalogonimoides sireni,North America,Trematoda,Amphibia
 15879,26370,Cephalogonimus compactus,North America,Trematoda,Reptilia
-15880,26371,Cephalogonimus vesicaudus,North America,Trematoda,['Gastropoda' 'Reptilia']
+15880,26371,Cephalogonimus vesicaudus,North America,Trematoda,Reptilia
 15881,26372,Clinostomum attenuatum,North America,Trematoda,Aves
 15882,26375,Clinostomum heluans,North America,Trematoda,Aves
 15883,26376,Cotylurus aquavis,North America,Trematoda,[]
@@ -15901,19 +15901,19 @@
 15899,26393,Galactosomum fregate,North America,Trematoda,Aves
 15900,26395,Gigantobilharzia huttoni,North America,Trematoda,Aves
 15901,26396,Gorgodera minima,North America,Trematoda,Amphibia
-15902,26398,Gymnophalloides heardi,North America,Trematoda,['Gastropoda' 'Mammalia']
+15902,26398,Gymnophalloides heardi,North America,Trematoda,Gastropoda
 15903,26399,Gynaecotyla riggini,North America,Trematoda,Aves
 15904,26400,Heterobilharzia americana,North America,Trematoda,Mammalia
 15905,26401,Ignavia venusta,North America,Trematoda,Aves
 15906,26402,Leucochloridium problematicum,North America,Trematoda,Aves
 15907,26403,Levinseniella byrdi,North America,Trematoda,Aves
-15908,26404,Levinseniella deblocki,North America,Trematoda,['Aves' 'Malacostraca' 'Mammalia']
+15908,26404,Levinseniella deblocki,North America,Trematoda,Malacostraca
 15909,26405,Levinseniella hunteri,North America,Trematoda,[]
 15910,26408,Longiductotrema floridensis,North America,Trematoda,Aves
 15911,26409,Lutztrema microstomum,North America,Trematoda,Aves
 15912,26410,Lyperosomum byrdi,North America,Trematoda,[]
 15913,26411,Lyperosomum intermedium,North America,Trematoda,Mammalia
-15914,26412,Lyperosomum oswaldoi,Asia,Trematoda,['Aves' 'Mammalia']
+15914,26412,Lyperosomum oswaldoi,Asia,Trematoda,Aves
 15915,26413,Macrobilharzia macrobilharzia,North America,Trematoda,Aves
 15916,26414,Maritrema gratiosum,South America,Trematoda,Aves
 15917,26415,Maritrema prosthometra,North America,Trematoda,Mammalia
@@ -15946,7 +15946,7 @@
 15944,26446,Patagifer vioscai,North America,Trematoda,Aves
 15945,26447,Petasiger floridanus,North America,Trematoda,Aves
 15946,26448,Phagicola byrdi,North America,Trematoda,Aves
-15947,26449,Phagicola diminuta,North America,Trematoda,Mammalia
+15947,26449,Phagicola diminuta,North America,Trematoda,Aves
 15948,26450,Pharyngostomoides ovale,North America,Trematoda,Mammalia
 15949,26451,Philophthalmus hegeneri,North America,Trematoda,Aves
 15950,26453,Philophthalmus larsoni,North America,Trematoda,[]
@@ -16012,12 +16012,12 @@
 16010,26535,Ascocotyle byrdi,North America,Trematoda,Aves
 16011,26536,Euparyphium beaveri,North America,Trematoda,Mammalia
 16012,26537,Eurytrema komareki,North America,Trematoda,Mammalia
-16013,26538,Fibricola texensis,North America,Trematoda,Mammalia
+16013,26538,Fibricola texensis,North America,Trematoda,Amphibia
 16014,26539,Gyrosoma singularis,North America,Trematoda,Mammalia
 16015,26540,Haematoloechus floedae,North America,Trematoda,[]
 16016,26542,Hapalorhynchus stunkardi,North America,Trematoda,Reptilia
 16017,26544,Maritreminoides nettae,North America,Trematoda,Mammalia
-16018,26545,Metagonimoides oregonensis,North America,Trematoda,Mammalia
+16018,26545,Metagonimoides oregonensis,North America,Trematoda,Amphibia
 16019,26548,Troglotrema mustelae,North America,Trematoda,Mammalia
 16020,26550,Acanthocreadium araxicus,Europe,Trematoda,Teleostei
 16021,26551,Asymphylodora kurensis,Europe,Trematoda,Teleostei
@@ -16100,7 +16100,7 @@
 16098,26652,Lyperosomum clathratum,Europe,Trematoda,Aves
 16099,26653,Maritrema carpathica,Europe,Trematoda,Mammalia
 16100,26654,Mesotretes peregrinus,Europe,Trematoda,Mammalia
-16101,26655,Moedlingeria amphoraeformis,Europe,Trematoda,['Amphibia' 'Mammalia']
+16101,26655,Moedlingeria amphoraeformis,Europe,Trematoda,Mammalia
 16102,26656,Nematostrigea serpens,North America,Trematoda,Aves
 16103,26657,Neodiplostomum obscurum,Asia,Trematoda,Aves
 16104,26658,Nicolla proavitum,Europe,Trematoda,Teleostei
@@ -16156,7 +16156,7 @@
 16154,26717,Artyfechinostomum mehrai,Africa,Trematoda,Mammalia
 16155,26718,Artyfechinostomum oraoni,Africa,Trematoda,Mammalia
 16156,26720,Artyfechinostomum sufrartyfex,Asia,Trematoda,Mammalia
-16157,26722,Astiotrema hanumantharai,Asia,Trematoda,['Reptilia' 'Teleostei']
+16157,26722,Astiotrema hanumantharai,Asia,Trematoda,Reptilia
 16158,26723,Astiotrema indicum,Asia,Trematoda,[]
 16159,26724,Astiotrema loossii,Asia,Trematoda,Reptilia
 16160,26726,Astiotrema manteri,Asia,Trematoda,[]
@@ -16518,7 +16518,7 @@
 16516,27149,Renicola melastigmai,Asia,Trematoda,[]
 16517,27150,Rhipidocotyle karthai,Asia,Trematoda,[]
 16518,27151,Satyapalia gauhatiensis,Asia,Trematoda,Teleostei
-16519,27153,Schistosoma incognitum,Asia,Trematoda,['Gastropoda' 'Mammalia']
+16519,27153,Schistosoma incognitum,Asia,Trematoda,Mammalia
 16520,27154,Schistosoma indicum,Asia,Trematoda,Mammalia
 16521,27155,Schistosoma nasale,Asia,Trematoda,Mammalia
 16522,27156,Schizamphistomoides fotedari,Asia,Trematoda,[]
@@ -16546,7 +16546,7 @@
 16544,27183,Allassogonoporus marginalis,North America,Trematoda,Mammalia
 16545,27185,Allocreadium neotenicum,North America,Trematoda,Malacostraca
 16546,27186,Azygia bulbosa,North America,Trematoda,Holostei
-16547,27187,Brachylaima ovatus,North America,Trematoda,Mammalia
+16547,27187,Brachylaima ovatus,North America,Trematoda,Aves
 16548,27188,Brachylaima rhomboideus,North America,Trematoda,Mammalia
 16549,27190,Glyptoporus noctophilus,North America,Trematoda,Mammalia
 16550,27191,Hapalorhynchus gracilis,North America,Trematoda,Reptilia
@@ -16556,7 +16556,7 @@
 16554,27196,Paralecithodendrium nokomis,North America,Trematoda,Mammalia
 16555,27197,Paralecithodendrium transversum,North America,Trematoda,Mammalia
 16556,27198,Paralecithodendrium volaticum,North America,Trematoda,Mammalia
-16557,27199,Philophthalmus megalurus,North America,Trematoda,Gastropoda
+16557,27199,Philophthalmus megalurus,North America,Trematoda,Aves
 16558,27200,Pristotrema manteri,North America,Trematoda,[]
 16559,27201,Prohemistomum chandleri,North America,Trematoda,Teleostei
 16560,27203,Pseudotelorchis compactus,North America,Trematoda,[]
@@ -16877,7 +16877,7 @@
 16875,27671,Echinoparyphium nordianum,Europe,Trematoda,Aves
 16876,27672,Notocotylus babai,Europe,Trematoda,Aves
 16877,27673,Opisthorchis germinus,Europe,Trematoda,Aves
-16878,27674,Ornithobilharzia turkestanica,Africa,Trematoda,Mammalia
+16878,27674,Ornithobilharzia turkestanica,Africa,Trematoda,Gastropoda
 16879,27675,Paryphostomum novum,Europe,Trematoda,Aves
 16880,27677,Cercaria branchyura,Africa,Trematoda,[]
 16881,27679,Megamonostomella rashediansis,Asia,Trematoda,Teleostei
@@ -16916,7 +16916,7 @@
 16914,27721,Distomum putorii,Europe,Trematoda,Mammalia
 16915,27722,Distomum tereticolle,Europe,Trematoda,Teleostei
 16916,27723,Distomum vallei,Europe,Trematoda,Aves
-16917,27724,Galactosomum phalacrocoracis,Europe,Trematoda,Aves
+16917,27724,Galactosomum phalacrocoracis,Europe,Trematoda,Teleostei
 16918,27725,Hemistomum epatula,Europe,Trematoda,[]
 16919,27726,Holostomum cornu,Europe,Trematoda,Aves
 16920,27728,Holostomum lagena,Europe,Trematoda,[]
@@ -17033,7 +17033,7 @@
 17031,27905,Styphlodora magna,North America,Trematoda,Reptilia
 17032,27906,Unicaecum ruszkowskii,North America,Trematoda,Reptilia
 17033,27907,Zeugorchis longicirrus,North America,Trematoda,Reptilia
-17034,27909,Himasthla compacta,North America,Trematoda,['Aves' 'Gastropoda']
+17034,27909,Himasthla compacta,North America,Trematoda,Gastropoda
 17035,27913,Hapalorhynchus macrotesticularis,Asia,Trematoda,Reptilia
 17036,27915,Hapalorhynchus rugatus,Asia,Trematoda,Reptilia
 17037,27917,Helostomatis cyprinorum,Asia,Trematoda,[]
@@ -17078,9 +17078,9 @@
 17076,28016,Diplostomulum sp.,North America,Trematoda,Reptilia
 17077,28022,Diplostomum americana,North America,Trematoda,Aves
 17078,28023,Drepanocephalus mexicanus,South America,Trematoda,Aves
-17079,28024,Drepanocephalus olivaceus,South America,Trematoda,Aves
+17079,28024,Drepanocephalus olivaceus,South America,Trematoda,Teleostei
 17080,28025,Drepanocephalus parvicephalum,South America,Trematoda,Aves
-17081,28026,Echinochasmus leopoldinae,North America,Trematoda,['Aves' 'Teleostei']
+17081,28026,Echinochasmus leopoldinae,North America,Trematoda,Aves
 17082,28027,Echinochasmus macrocaudatus,North America,Trematoda,Teleostei
 17083,28028,Echinochasmus zubedakhaname,North America,Trematoda,Aves
 17084,28029,Echinostoma ochoterenai,Europe,Trematoda,Mammalia
@@ -17175,9 +17175,9 @@
 17173,28163,Cercaria yogena,North America,Trematoda,Gastropoda
 17174,28164,Cotylurus michiganensis,North America,Trematoda,[]
 17175,28165,Diplostomum micradenum,North America,Trematoda,[]
-17176,28166,Echinoparyphium rubrum,North America,Trematoda,['Aves' 'Gastropoda']
+17176,28166,Echinoparyphium rubrum,North America,Trematoda,Aves
 17177,28168,Euryhelmis monorchis,North America,Trematoda,Mammalia
-17178,28169,Eustomos chelydrae,North America,Trematoda,['Gastropoda' 'Reptilia']
+17178,28169,Eustomos chelydrae,North America,Trematoda,Reptilia
 17179,28171,Gorgodera attenuata,North America,Trematoda,[]
 17180,28172,Haematoloechus parviplexus,North America,Trematoda,[]
 17181,28173,Haematoloechus similiplexus,North America,Trematoda,[]
@@ -17201,7 +17201,7 @@
 17199,28199,Plotnikovia podilymbae,Asia,Trematoda,Aves
 17200,28200,Pseudamphimerus sterni,Europe,Trematoda,Aves
 17201,28201,Pycnoporus travassosi,North America,Trematoda,Mammalia
-17202,28202,Sanguinicola lophophora,North America,Trematoda,Teleostei
+17202,28202,Sanguinicola lophophora,North America,Trematoda,Gastropoda
 17203,28204,Acanthostomum macroclemidis,North America,Trematoda,[]
 17204,28206,Prosthodendrium singularium,North America,Trematoda,Mammalia
 17205,28207,Telorchis angustus,North America,Trematoda,Reptilia
@@ -17221,7 +17221,7 @@
 17219,28238,Phyllodistomum funduli,North America,Trematoda,Teleostei
 17220,28240,Vasatrema brevitestis,North America,Trematoda,Reptilia
 17221,28241,Zygocotyle ceratosa,Europe,Trematoda,Aves
-17222,28242,Collyricloides massanae,Europe,Trematoda,Aves
+17222,28242,Collyricloides massanae,Europe,Trematoda,Mammalia
 17223,28244,Echinoparyphium agnatum,Europe,Trematoda,Aves
 17224,28245,Asymphylodora amnicolae,North America,Trematoda,[]
 17225,28253,Pygidiopsis plana,North America,Trematoda,[]
@@ -17231,7 +17231,7 @@
 17229,28257,Haematotrema parvum,North America,Trematoda,Reptilia
 17230,28258,Heterechinostomum magnovatum,Europe,Trematoda,Mammalia
 17231,28259,Loxogenoides bicolor,North America,Trematoda,[]
-17232,28260,Plagitura parva,North America,Trematoda,Amphibia
+17232,28260,Plagitura parva,North America,Trematoda,Gastropoda
 17233,28261,Postharmostomum noveboracensis,North America,Trematoda,Mammalia
 17234,28262,Pseudosonsinotrema catesbeianae,North America,Trematoda,[]
 17235,28263,Spirorchis picta,North America,Trematoda,Reptilia
@@ -17359,7 +17359,7 @@
 17357,28468,Skrjabinovermis haematopi,South America,Trematoda,Aves
 17358,28469,Stephanoprora nasiri,South America,Trematoda,Aves
 17359,28471,Acanthatrium umbraculatum,North America,Trematoda,Mammalia
-17360,28472,Allocreadium pseudotritoni,North America,Trematoda,['Amphibia' 'Bivalvia']
+17360,28472,Allocreadium pseudotritoni,North America,Trematoda,Amphibia
 17361,28473,Diplostomulum xenopi,Africa,Trematoda,Amphibia
 17362,28474,Tylodelphys xenopi,Africa,Trematoda,Amphibia
 17363,28475,Acanthatrium oregonense,North America,Trematoda,Mammalia
@@ -17384,7 +17384,7 @@
 17382,28508,Bucephaloides cancilatus,Asia,Trematoda,Teleostei
 17383,28511,Calicophoron papillosum,Asia,Trematoda,Mammalia
 17384,28512,Carmyerius bulbosus,Asia,Trematoda,Mammalia
-17385,28513,Carneophallus brevicaeca,Africa,Trematoda,Mammalia
+17385,28513,Carneophallus brevicaeca,Africa,Trematoda,Teleostei
 17386,28514,Cathaemasia cabrerai,Africa,Trematoda,Mammalia
 17387,28520,Cephalogonimus burmanicus,Asia,Trematoda,Reptilia
 17388,28521,Cephalogonimus indicus,Asia,Trematoda,Reptilia
@@ -17475,7 +17475,7 @@
 17473,28648,Ogmocotyle indica,Asia,Trematoda,Mammalia
 17474,28649,Ommatobrephus lobatum,Asia,Trematoda,[]
 17475,28651,Opisthorchis bilabiata,Asia,Trematoda,Teleostei
-17476,28653,Opisthorchis caninus,Asia,Trematoda,['Mammalia' 'Teleostei']
+17476,28653,Opisthorchis caninus,Asia,Trematoda,Mammalia
 17477,28655,Opisthorchis parageminus,Asia,Trematoda,[]
 17478,28664,Orientobilharzia dattai,Asia,Trematoda,[]
 17479,28665,Orientodiscus fossilis,Asia,Trematoda,Teleostei
@@ -17536,7 +17536,7 @@
 17534,28791,Skrjabinus dicruri,Asia,Trematoda,Aves
 17535,28793,Skrjabinus gracilis,Asia,Trematoda,[]
 17536,28795,Skrjabinus pancreaticus,Asia,Trematoda,Aves
-17537,28796,Spelotrema brevicaeca,Europe,Trematoda,['Malacostraca' 'Mammalia']
+17537,28796,Spelotrema brevicaeca,Europe,Trematoda,Malacostraca
 17538,28797,Sphincteristomum ompoki,Asia,Trematoda,Teleostei
 17539,28798,Srivastavaia indica,Asia,Trematoda,[]
 17540,28800,Stephanoprora minutus,Asia,Trematoda,Reptilia
@@ -17955,7 +17955,7 @@
 17953,29491,Mecoderus oligoplitis,Pacific Ocean,Trematoda,Teleostei
 17954,29493,Mehratrema arii,Pacific Ocean,Trematoda,Aves
 17955,29494,Meiogymnophallus multigemmulus,Europe,Trematoda,Bivalvia
-17956,29496,Melogonimus rhodanometra,Pacific Ocean,Trematoda,['Chondrichthyes' 'Malacostraca']
+17956,29496,Melogonimus rhodanometra,Pacific Ocean,Trematoda,Malacostraca
 17957,29497,Metadena magdalenae,Pacific Ocean,Trematoda,Teleostei
 17958,29498,Metadidymocystis lampridis,Europe,Trematoda,Teleostei
 17959,29499,Metanematobothrium seriolae,Atlantic Ocean,Trematoda,Teleostei
@@ -18052,7 +18052,7 @@
 18050,29647,Paragonapodasmius okushimae,Pacific Ocean,Trematoda,Teleostei
 18051,29648,Parahemiurus arripedis,Pacific Ocean,Trematoda,Teleostei
 18052,29652,Parahemiurus ecuadori,Pacific Ocean,Trematoda,[]
-18053,29661,Paralepidapedon hoplognathi,Pacific Ocean,Trematoda,['Echinoidea' 'Teleostei']
+18053,29661,Paralepidapedon hoplognathi,Pacific Ocean,Trematoda,Echinoidea
 18054,29664,Paralepidapedon sebastisci,Pacific Ocean,Trematoda,Teleostei
 18055,29667,Paramanteriella modestae,Pacific Ocean,Trematoda,[]
 18056,29668,Paramonorcheides pseudocaranxi,Pacific Ocean,Trematoda,Teleostei
@@ -18167,7 +18167,7 @@
 18165,29829,Pseudoprosorhynchus hainanensis,Pacific Ocean,Trematoda,Teleostei
 18166,29830,Pseudosiphoderoides lutiani,Pacific Ocean,Trematoda,Teleostei
 18167,29831,Pseudozoogonoides ugui,Asia,Trematoda,Teleostei
-18168,29832,Psilostomum magniovum,Pacific Ocean,Trematoda,['Bivalvia' 'Gastropoda']
+18168,29832,Psilostomum magniovum,Pacific Ocean,Trematoda,Gastropoda
 18169,29834,Quadrifoliovarium pritchardae,Pacific Ocean,Trematoda,[]
 18170,29835,Renicola caudescens,Pacific Ocean,Trematoda,Aves
 18171,29836,Renicola cerithidicola,North America,Trematoda,[]
@@ -18210,7 +18210,7 @@
 18208,29889,Synaptobothrium apharei,Atlantic Ocean,Trematoda,Teleostei
 18209,29891,Syncoelium regaleci,Pacific Ocean,Trematoda,Teleostei
 18210,29892,Syncoelium vermilionensis,Pacific Ocean,Trematoda,Chondrichthyes
-18211,29893,Telolecithus pugetensis,Pacific Ocean,Trematoda,['Bivalvia' 'Teleostei']
+18211,29893,Telolecithus pugetensis,Pacific Ocean,Trematoda,Bivalvia
 18212,29896,Telorhynchus cociellae,Pacific Ocean,Trematoda,Teleostei
 18213,29897,Tergestia acanthogobii,Atlantic Ocean,Trematoda,Teleostei
 18214,29898,Tergestia atropi,Pacific Ocean,Trematoda,[]
@@ -18383,7 +18383,7 @@
 18381,30135,Brachylecithum eliomydis,Europe,Trematoda,Mammalia
 18382,30136,Cephalotrema minutum,Europe,Trematoda,Mammalia
 18383,30137,Cloacitrema deltoida,Asia,Trematoda,Aves
-18384,30141,Echinostoma friedi,Europe,Trematoda,['Gastropoda' 'Mammalia']
+18384,30141,Echinostoma friedi,Europe,Trematoda,Mammalia
 18385,30143,Euparyphium albuferensis,Europe,Trematoda,Mammalia
 18386,30146,Gorgodera circava,Europe,Trematoda,[]
 18387,30147,Gorgodera euzeti,Europe,Trematoda,Amphibia
@@ -18452,12 +18452,12 @@
 18450,30233,Himasthla catoptrophori,North America,Trematoda,[]
 18451,30234,Lissorchis hypentelii,North America,Trematoda,Teleostei
 18452,30235,Maritrema paracadiae,North America,Trematoda,Aves
-18453,30236,Notocotylus stagnicolae,North America,Trematoda,Aves
+18453,30236,Notocotylus stagnicolae,North America,Trematoda,Gastropoda
 18454,30237,Ochetosoma georgianum,North America,Trematoda,Reptilia
 18455,30238,Paracreptotrematina aquirrepequenoi,North America,Trematoda,Teleostei
 18456,30239,Paramonostomum parvum,North America,Trematoda,Aves
 18457,30241,Pseudocrocodilicola georgiana,North America,Trematoda,Reptilia
-18458,30242,Rhipidocotyle lepisostei,North America,Trematoda,['Holostei' 'Teleostei']
+18458,30242,Rhipidocotyle lepisostei,North America,Trematoda,Holostei
 18459,30243,Ribeiroia thomasi,North America,Trematoda,Aves
 18460,30244,Textrema hopkinsi,North America,Trematoda,Teleostei
 18461,30245,Acanthatrium sogandaresi,Europe,Trematoda,Mammalia
